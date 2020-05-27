@@ -1,0 +1,16 @@
+{
+  "name": "jsdev.dev",
+  "version": "1.0.0",
+  "description": "Profile Site",
+  "main": "index.js",
+  "dependencies": {
+    "tailwindcss": "^1.4.6",
+    "vuepress": "^1.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
