@@ -11,12 +11,14 @@ meta:
     content: Article on TypeScript
 ---
 
-# MultiClass Text Classification with Scikit-Learn
+# MultiClass Text Classification with Scikit-Learn...
+
 <br>
 <hr>
 <br>
 
-Let's see the code
+Let's see the codeww
+
 ```js{2}
 const newVar
 newVar = [1,2,3,4,5]
@@ -24,11 +26,12 @@ console.log(newVar)
 ```
 
 This blog covers multiclass classification on a customer complaints dataset.  
-After preprocessing the data we will build multiple models with different estimator and different hyperparemeters to find the best performing model.  
+After preprocessing the data we will build multiple models with different estimator and different hyperparemeters to find the best performing model.
 
 <br>
 
 ## Get the data ready
+
 As an example dataset, we'll import Consumer_Complaints.csv.
 
 ```python
@@ -38,7 +41,7 @@ import numpy as np
 
 dataset = pd.read_csv('drive/My Drive/Colab Notebooks/Consumer_Complaints.csv')
 
-# Select only the Product and Consumer Complaint columns  
+# Select only the Product and Consumer Complaint columns
 col = ['Product', 'Consumer Complaint']
 dataset= dataset[col]
 
@@ -46,15 +49,15 @@ dataset= dataset[col]
 dataset.dropna(subset=["Consumer Complaint"], inplace=True)
 
 # Rename column
-dataset.columns=['Product', 'ConsumerComplaint'] 
+dataset.columns=['Product', 'ConsumerComplaint']
 
-# Convert the label (Product) to numeric using the pd factorize function 
+# Convert the label (Product) to numeric using the pd factorize function
 dataset['category_id'] = dataset['Product'].factorize()[0]
 
 # Only include the following products
-dataset=dataset[dataset['Product'].isin(['Credit reporting', 
-                                         'Debt collection', 
-                                         'Mortgage', 
+dataset=dataset[dataset['Product'].isin(['Credit reporting',
+                                         'Debt collection',
+                                         'Mortgage',
                                          'Credit Card',
                                          'Student loan',
                                          'Bank account or service'])]
@@ -63,5 +66,4 @@ dataset=dataset[dataset['Product'].isin(['Credit reporting',
 dataset.head()
 ```
 
-The Jupyter Notebook can be found here, [GitHub](https://github.com/snymanje/MultiClass-Text-Classification/blob/master/MultiClass_Text_Classification_with_Multiple_Estimators_and_Hyperparameter_Optimization.ipynb) 
-
+The Jupyter Notebook can be found here, [GitHub](https://github.com/snymanje/MultiClass-Text-Classification/blob/master/MultiClass_Text_Classification_with_Multiple_Estimators_and_Hyperparameter_Optimization.ipynb)

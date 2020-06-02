@@ -14,6 +14,5 @@ module.exports = {
       { text: "Home", link: "/" },
       { text: "Blog", link: "/pages/" },
     ],
-  },
-  host: "localhost",
+  }
 };

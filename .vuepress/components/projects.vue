@@ -1,16 +1,14 @@
 <template>
-  <section class="text-gray-700 body-font">
+  <section class="text-gray-700 body-font border-solid border-t border-gray-200">
     <div class="container px-5 py-24 mx-auto">
       <div class="flex flex-col text-center w-full mb-20">
         <h1
           class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900"
-        >
-          Master Cleanse Reliac Heirloom
-        </h1>
+        >Projects and R&D Work</h1>
         <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
           Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
-          gentrify, subway tile poke farm-to-table. Franzen you probably haven't
-          heard of them man bun deep jianbing selfies heirloom.
+          gentrify, subway tile poke farm-to-table. Franzen you probably
+          haven't heard of them man bun deep jianbing selfies heirloom.
         </p>
       </div>
       <div class="flex flex-wrap -m-4">
@@ -26,15 +24,11 @@
             >
               <h2
                 class="tracking-widest text-sm title-font font-medium text-blue-500 mb-1"
-              >
-                THE SUBTITLE
-              </h2>
-              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
-                Shooting Stars
-              </h1>
+              >THE SUBTITLE</h2>
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Shooting Stars</h1>
               <p class="leading-relaxed">
-                Photo booth fam kinfolk cold-pressed sriracha leggings jianbing
-                microdosing tousled waistcoat.
+                Photo booth fam kinfolk cold-pressed sriracha leggings
+                jianbing microdosing tousled waistcoat.
               </p>
             </div>
           </div>
@@ -51,15 +45,11 @@
             >
               <h2
                 class="tracking-widest text-sm title-font font-medium text-blue-500 mb-1"
-              >
-                THE SUBTITLE
-              </h2>
-              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
-                The Catalyzer
-              </h1>
+              >THE SUBTITLE</h2>
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">The Catalyzer</h1>
               <p class="leading-relaxed">
-                Photo booth fam kinfolk cold-pressed sriracha leggings jianbing
-                microdosing tousled waistcoat.
+                Photo booth fam kinfolk cold-pressed sriracha leggings
+                jianbing microdosing tousled waistcoat.
               </p>
             </div>
           </div>
@@ -76,15 +66,11 @@
             >
               <h2
                 class="tracking-widest text-sm title-font font-medium text-blue-500 mb-1"
-              >
-                THE SUBTITLE
-              </h2>
-              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
-                The 400 Blows
-              </h1>
+              >THE SUBTITLE</h2>
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">The 400 Blows</h1>
               <p class="leading-relaxed">
-                Photo booth fam kinfolk cold-pressed sriracha leggings jianbing
-                microdosing tousled waistcoat.
+                Photo booth fam kinfolk cold-pressed sriracha leggings
+                jianbing microdosing tousled waistcoat.
               </p>
             </div>
           </div>
@@ -101,15 +87,11 @@
             >
               <h2
                 class="tracking-widest text-sm title-font font-medium text-blue-500 mb-1"
-              >
-                THE SUBTITLE
-              </h2>
-              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
-                Neptune
-              </h1>
+              >THE SUBTITLE</h2>
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Neptune</h1>
               <p class="leading-relaxed">
-                Photo booth fam kinfolk cold-pressed sriracha leggings jianbing
-                microdosing tousled waistcoat.
+                Photo booth fam kinfolk cold-pressed sriracha leggings
+                jianbing microdosing tousled waistcoat.
               </p>
             </div>
           </div>
@@ -126,15 +108,11 @@
             >
               <h2
                 class="tracking-widest text-sm title-font font-medium text-blue-500 mb-1"
-              >
-                THE SUBTITLE
-              </h2>
-              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
-                Holden Caulfield
-              </h1>
+              >THE SUBTITLE</h2>
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Holden Caulfield</h1>
               <p class="leading-relaxed">
-                Photo booth fam kinfolk cold-pressed sriracha leggings jianbing
-                microdosing tousled waistcoat.
+                Photo booth fam kinfolk cold-pressed sriracha leggings
+                jianbing microdosing tousled waistcoat.
               </p>
             </div>
           </div>
@@ -151,15 +129,11 @@
             >
               <h2
                 class="tracking-widest text-sm title-font font-medium text-blue-500 mb-1"
-              >
-                THE SUBTITLE
-              </h2>
-              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
-                Alper Kamu
-              </h1>
+              >THE SUBTITLE</h2>
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Alper Kamu</h1>
               <p class="leading-relaxed">
-                Photo booth fam kinfolk cold-pressed sriracha leggings jianbing
-                microdosing tousled waistcoat.
+                Photo booth fam kinfolk cold-pressed sriracha leggings
+                jianbing microdosing tousled waistcoat.
               </p>
             </div>
           </div>
