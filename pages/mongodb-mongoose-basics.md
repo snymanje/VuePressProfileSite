@@ -8,26 +8,31 @@ cover_image: ""
 ---
 
 # Introduction to MongoDB and Mongoose
+
 <br>
 <hr>
 <br>
 
 ## Overview
-![overview](../../src/assets/images/MongoDB/Overview.jpg)
+
+![overview](/assets/images/MongoDB/Overview.jpg)
 
 <br>
 
 ## Relational Database Structure
-![structurenosql](../../src/assets/images/MongoDB/StructureNoSQL.jpg)
+
+![structurenosql](/assets/images/MongoDB/StructureNoSQL.jpg)
 
 <br>
 
 ## Relational Database Structure
-![structuresql](../../src/assets/images/MongoDB/StructureSQL.jpg)
+
+![structuresql](/assets/images/MongoDB/StructureSQL.jpg)
 
 <br>
 
 ## Creating a local DB using the Mongo Shell
+
 ```javascript
 //First run mongo command to enter the Mongo Shell
 mongo
@@ -68,6 +73,7 @@ tours
 //Quite the Mongo shell
 quite()
 ```
+
 <br>
 
 ## Creating New Documents
@@ -100,6 +106,7 @@ db.tours.find()
 { "_id" : ObjectId("5da2a1388adf1de813580282"), "name" : "The snow adventurer", "price" : 456, "rating" : 4.9 }
 { "_id" : ObjectId("5da2a1388adf1de813580283"), "name" : "The snow explorer", "price" : 497, "rating" : 4.8, "difficulty" : "easy" }
 ```
+
 <br>
 
 ## Quering Documents
@@ -160,9 +167,11 @@ db.tours.updateMany({price: {$gt:500}, rating: {$gt: 4.8}},{$set: {premiun: true
 { "_id" : ObjectId("5da2a1388adf1de813580282"), "name" : "The snow adventurer", "price" : 599, "rating" : 4.9, "premiun" : true }
 { "_id" : ObjectId("5da2a1388adf1de813580283"), "name" : "The snow explorer", "price" : 497, "rating" : 4.8, "difficulty" : "easy" }
 ```
+
 <br>
 
 ## Deleting Documents
+
 ```javascript
 db.tours.deleteMany({rating: {$lte: 4.8}})
 { "acknowledged" : true, "deletedCount" : 3 }
@@ -182,56 +191,55 @@ db.tours.deleteMany({})
 
 <br>
 
-![Mongoose](../../src/assets/images/MongoDB/Mongoose.jpg)
-
+![Mongoose](/assets/images/MongoDB/Mongoose.jpg)
 
 ```javascript
 // Create a basic schema
 const tourSchema = new mongoose.Schema({
   name: {
     type: String,
-    required: [true, 'A tour must have a name'],
-    unique: true
+    required: [true, "A tour must have a name"],
+    unique: true,
   },
   rating: {
     type: Number,
-    default: 4.5
+    default: 4.5,
   },
   price: {
     type: Number,
-    required: [true, 'A tour must have a price']
-  }
+    required: [true, "A tour must have a price"],
+  },
 });
 ```
 
 ```javascript
 // Creating the model
 // Model names always start with capital letter
-const Tour = mongoose.model('Tour', tourSchema);
+const Tour = mongoose.model("Tour", tourSchema);
 ```
 
 ```javascript
 // Testing the model
 // Create instance of Tour model
 const testTour = new Tour({
-  name: 'The Forest Hiker',
+  name: "The Forest Hiker",
   rating: 4.7,
-  price: 497
+  price: 497,
 });
 
 testTour
   .save()
-  .then(doc => {
+  .then((doc) => {
     console.log(doc);
   })
-  .catch(err => {
+  .catch((err) => {
     console.log(err);
   });
 
 // a better way of creating documents
 const newTour = await Tour.create(req.body);
-
 ```
+
 <br>
 
 ### A Schema with validation, virtual properties and middleware
@@ -241,67 +249,67 @@ const tourSchema = new mongoose.Schema(
   {
     name: {
       type: String,
-      required: [true, 'A tour must have a name'],
+      required: [true, "A tour must have a name"],
       unique: true,
       trim: true,
-      maxlength: [40, 'A Tour name must have less than 41 characterss'],
-      minlength: [10, 'A Tour must have more than 10 characters']
+      maxlength: [40, "A Tour name must have less than 41 characterss"],
+      minlength: [10, "A Tour must have more than 10 characters"],
     },
     difficulty: {
       type: String,
-      required: [true, 'A tour must have a difficulty'],
+      required: [true, "A tour must have a difficulty"],
       enum: {
-        values: ['easy', 'medium', 'difficult'],
-        message: 'Difficulty must be easy, medium or difficult'
-      }
+        values: ["easy", "medium", "difficult"],
+        message: "Difficulty must be easy, medium or difficult",
+      },
     },
     ratingAverage: {
       type: Number,
       default: 4.5,
-      min: [1, 'Rating must be above 1.0'],
-      max: [5, 'Rating must be below 5.0']
+      min: [1, "Rating must be above 1.0"],
+      max: [5, "Rating must be below 5.0"],
     },
     price: {
       type: Number,
-      required: [true, 'A tour must have a price']
+      required: [true, "A tour must have a price"],
     },
     priceDiscount: Number,
     summary: {
       type: String,
       trim: true,
-      required: [true, 'tour must have a summary']
+      required: [true, "tour must have a summary"],
     },
     description: {
       type: String,
-      trim: true
+      trim: true,
     },
     createdAt: {
       type: Date,
       default: Date.now(),
       //Removes it from the results
-      select: false
+      select: false,
     },
     startDates: [Date],
     secretTour: {
       type: Boolean,
-      default: false
-    }
+      default: false,
+    },
   },
-  //Add virtual properties to the schema - Used for display purposes, you can't query with virtual properties 
+  //Add virtual properties to the schema - Used for display purposes, you can't query with virtual properties
   {
     toJSON: { virtuals: true },
-    toObject: { virtuals: true }
+    toObject: { virtuals: true },
   }
 );
 
 //Define the virtual property
-tourSchema.virtual('durationWeeks').get(function() {
+tourSchema.virtual("durationWeeks").get(function() {
   return this.duration / 7;
 });
 
 //Document middleware
 //Runs before save and create command. NOT for insertMany
-tourSchema.pre('save', function(next) {
+tourSchema.pre("save", function(next) {
   this.slug = slugify(this.name, { lower: true });
   next();
 });
@@ -317,30 +325,30 @@ tourSchema.post('save', function(doc, next) {
 }); */
 
 //QUERY MIDDLEWARE
-tourSchema.pre('/^find/', function(next) {
+tourSchema.pre("/^find/", function(next) {
   this.find({ secretTour: { $ne: true } });
   next();
 });
 
 //AGGREGATION MIDDLEWARE
-tourSchema.pre('aggregate', function(next) {
+tourSchema.pre("aggregate", function(next) {
   this.pipeline().unshift({ $match: { secretTour: { $ne: true } } });
   next();
 });
 
 //Model names always start with capital letter
-const Tour = mongoose.model('Tour', tourSchema);
+const Tour = mongoose.model("Tour", tourSchema);
 
 module.exports = Tour;
 ```
 
 ```javascript
-// In your patch\update request you have to set runValidators to true, 
-// otherwise the validation will not run when you update a field. 
- const tour = await Tour.findByIdAndUpdate(req.params.id, req.body, {
-      new: true,
-      runValidators: true
-    });
+// In your patch\update request you have to set runValidators to true,
+// otherwise the validation will not run when you update a field.
+const tour = await Tour.findByIdAndUpdate(req.params.id, req.body, {
+  new: true,
+  runValidators: true,
+});
 ```
 
 ```javascript
@@ -356,4 +364,3 @@ priceDiscount: {
       }
     },
 ```
-

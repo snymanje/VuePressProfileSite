@@ -25,11 +25,14 @@
           <img
             class="mx-auto object-cover object-center rounded-full w-56 h-56"
             alt="hero"
-            src="../public/profile9.png"
+            src="profile9.png"
           />
         </div>
         <div class="flex items-center justify-center mt-3">
-          <a href="https://twitter.com/JeanSnyman" class="mx-3 text-gray-500 cursor-pointer">
+          <a
+            href="https://twitter.com/JeanSnyman"
+            class="mx-3 text-gray-500 cursor-pointer hover:text-green-500"
+          >
             <svg
               fill="currentColor"
               stroke-linecap="round"
@@ -43,23 +46,24 @@
               />
             </svg>
           </a>
-          <a href="https://github.com/snymanje" class="mx-3 text-gray-500 cursor-pointer">
+          <a
+            href="https://github.com/snymanje"
+            class="mx-3 text-gray-500 cursor-pointer hover:text-green-500"
+          >
             <svg
-              fill="none"
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              class="w-6 h-6"
-              viewBox="0 0 24 24"
+              class="fill-current w-6 h-6"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 20 20"
             >
-              <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
-              <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01" />
+              <title>GitHub</title>
+              <path
+                d="M10 0a10 10 0 0 0-3.16 19.49c.5.1.68-.22.68-.48l-.01-1.7c-2.78.6-3.37-1.34-3.37-1.34-.46-1.16-1.11-1.47-1.11-1.47-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.08 2.91.83.1-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.94 0-1.1.39-1.99 1.03-2.69a3.6 3.6 0 0 1 .1-2.64s.84-.27 2.75 1.02a9.58 9.58 0 0 1 5 0c1.91-1.3 2.75-1.02 2.75-1.02.55 1.37.2 2.4.1 2.64.64.7 1.03 1.6 1.03 2.69 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.85l-.01 2.75c0 .26.18.58.69.48A10 10 0 0 0 10 0"
+              />
             </svg>
           </a>
           <a
             href="https://www.linkedin.com/in/jean-snyman-js/"
-            class="mx-3 text-gray-500 cursor-pointer"
+            class="mx-3 text-gray-500 cursor-pointer hover:text-green-500"
           >
             <svg
               fill="currentColor"

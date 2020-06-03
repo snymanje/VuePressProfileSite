@@ -1,13 +1,14 @@
 ---
-title: Pandas Tutorial 
+title: Pandas Tutorial
 excerpt: "A Quick Introduction to Data Analysis and Manipulation with Python and Pandas"
 date: 2020-05-01
-tags: ["python","pandas","ml"]
+tags: ["python", "pandas", "ml"]
 keywords: "pandas data analysis, manipulating data with pandas"
 cover_image: ""
 ---
 
 # Pandas Tutorial
+
 <br>
 <hr>
 <br>
@@ -15,92 +16,95 @@ cover_image: ""
 ## What is pandas?
 
 If you're getting into machine learning and data science and you're using Python, you're going to use pandas.  
-Pandas is an open source library which helps you analyse and manipulate data.  
-  
-Pandas provides a simple to use but very capable set of functions you can use on your data.  
-  
-It's integrated with many other data science and machine learning tools which use Python so having an understanding of it will be helpful throughout your journey.  
-  
+Pandas is an open source library which helps you analyse and manipulate data.
+
+Pandas provides a simple to use but very capable set of functions you can use on your data.
+
+It's integrated with many other data science and machine learning tools which use Python so having an understanding of it will be helpful throughout your journey.
+
 One of the main use cases you'll come across is using pandas to transform your data in a way which makes it usable with machine learning algorithms.
 
 <br>
 
-## Importing pandas  
-  
+## Importing pandas
+
 To get started using pandas, the first step is to import it.  
-The most common way (and method you should use) is to import pandas as the abbreviation pd.  
-  
-```python 
+The most common way (and method you should use) is to import pandas as the abbreviation pd.
+
+```python
 import pandas as pd
 ```
-<br>
-
-## Datatypes  
-
-Pandas has ***two*** main datatypes, ***Series*** and ***DataFrame***.
-  
-* Series - a 1-dimensional column of data.  
-* DataFrame (most common) - a 2-dimesional table of data with rows and columns.  
 
 <br>
 
-You can ***create a Series*** using ***pd.Series()*** and passing it a ***Python list***.
+## Datatypes
+
+Pandas has **_two_** main datatypes, **_Series_** and **_DataFrame_**.
+
+- Series - a 1-dimensional column of data.
+- DataFrame (most common) - a 2-dimesional table of data with rows and columns.
+
+<br>
+
+You can **_create a Series_** using **_pd.Series()_** and passing it a **_Python list_**.
 
 ```python
 # Creating a series of car types
 cars = pd.Series(["BMW", "Toyota", "Honda"])
 cars
 
-""" 
+"""
 0    BMW
 1    Toyota
 2    Honda
-dtype: object 
+dtype: object
 """
 
 # Creating a series of colours
 colours = pd.Series(["Blue", "Red", "White"])
 colours
 
-""" 
+"""
 0    Blue
 1    Red
 2    White
 dtype: object
 """
 ```
+
 <br>
 
-You can ***create a DataFrame*** by using ***pd.DataFrame()*** and passing it a ***Python dictionary***.  
-Let's use our two Series as the values.  
+You can **_create a DataFrame_** by using **_pd.DataFrame()_** and passing it a **_Python dictionary_**.  
+Let's use our two Series as the values.
 
 ```python
 # Creating a DataFrame of cars and colours
-car_data = pd.DataFrame({"Car type": cars, 
+car_data = pd.DataFrame({"Car type": cars,
                          "Colour": colours})
 car_data
 
-""" 
+"""
 0	BMW	    Blue
 1	Toyota	Red
 2	Honda	White
 """
 ```
+
 <br>
 
-## Anatomy of a DataFrame  
+## Anatomy of a DataFrame
 
 Different functions use different labels for different things. This graphic sums up some of the main components of DataFrame's and their different names.  
-![PandasDataframeAnatomy](../../src/assets/images/Numpy/PandasDataframeAnatomy.png)
+![PandasDataframeAnatomy](/assets/images/Numpy/PandasDataframeAnatomy.png)
 
 <br>
 
-## Importing data  
+## Importing data
 
-Creating Series and DataFrame's from scratch is nice but what you'll usually be doing is importing your data in the form of a .csv (comma separated value) or spreadsheet file.  
-  
-Pandas allows for easy importing of data like this through functions such as pd.read_csv() and pd.read_excel() (for Microsoft Excel files).  
-  
+Creating Series and DataFrame's from scratch is nice but what you'll usually be doing is importing your data in the form of a .csv (comma separated value) or spreadsheet file.
+
+Pandas allows for easy importing of data like this through functions such as pd.read_csv() and pd.read_excel() (for Microsoft Excel files).
+
 ```python
 # Import the car sales data and save it to df
 df = pd.read_csv("../data/car-sales.csv")
@@ -114,26 +118,28 @@ Toyota	Blue	32549	        3	    $7,000.00
 Nissan	White	213095	        4	    $3,500.00
 """
 ```
+
 <br>
 
-## Exporting data  
-  
+## Exporting data
+
 After you've made a few changes to your data, you might want to export it and save it so someone else can access the changes.  
-Pandas allows you to export DataFrame's to .csv format using .to_csv() or spreadsheet format using .to_excel().  
-  
+Pandas allows you to export DataFrame's to .csv format using .to_csv() or spreadsheet format using .to_excel().
+
 ```python
 # Export the car sales DataFrame to csv
 car_sales.to_csv("../data/exported-car-sales.csv")
 ```
+
 <br>
 
-## Describing data  
-  
-One of the first things you'll want to do after you import some data into a pandas DataFrame is to start exploring it.  
-  
-Pandas has many built in functions which allow you to quickly get information about a DataFrame.  
-  
-Let's explore some using the car_sales DataFrame.  
+## Describing data
+
+One of the first things you'll want to do after you import some data into a pandas DataFrame is to start exploring it.
+
+Pandas has many built in functions which allow you to quickly get information about a DataFrame.
+
+Let's explore some using the car_sales DataFrame.
 
 ```python
 # .dtypes shows us what datatype each column contains.
@@ -149,7 +155,7 @@ dtype: object
 """
 
 # .describe() gives you a quick statistical overview of the numerical columns.
-car_sales.describe()  
+car_sales.describe()
 
 """
 	    Odometer	    Doors
@@ -166,7 +172,7 @@ max	    213095.000000	5.000000
 # .info() shows a handful of useful information about a DataFrame such as:
 
 # How many entries (rows) there are
-# Whether there are missing values 
+# Whether there are missing values
 # (if a columns non-null value is less than the number of entries, it has missing values)
 # The datatypes of each column
 
@@ -211,7 +217,7 @@ dtype: object
 car_prices.sum()
 # 17750
 
-# Calling these on a whole DataFrame may not be as helpful as targeting an individual column. 
+# Calling these on a whole DataFrame may not be as helpful as targeting an individual column.
 # But it's helpful to know they're there.
 # .columns will show you all the columns of a DataFrame.
 car_sales.columns
@@ -225,6 +231,7 @@ list(car_sales.columns)
 len(car_sales)
 # 10
 ```
+
 <br>
 
 ## Deleting a column
@@ -232,20 +239,22 @@ len(car_sales)
 ```pythyn
 dataset.drop('GroupId', axis=1, inplace=True)
 ```
+
 <br>
 
 ## Viewing and selecting data
+
 <br>
 
-* head()
-* tail()
-* loc
-* iloc
-* columns - df['A']
-* boolean indexing - df[df['A'] > 5]
-* crosstab()
-* .plot()
-* hist()  
+- head()
+- tail()
+- loc
+- iloc
+- columns - df['A']
+- boolean indexing - df[df['A'] > 5]
+- crosstab()
+- .plot()
+- hist()
 
 ```python
 # Show the first 5 rows of car_sales
@@ -265,7 +274,7 @@ car_sales.head(7)
 car_sales.tail()
 
 # You can use .loc[] and .iloc[] to select data from your Series and DataFrame's.
-animals = pd.Series(["cat", "dog", "bird", "snake", "ox", "lion"], 
+animals = pd.Series(["cat", "dog", "bird", "snake", "ox", "lion"],
                    index=[0, 3, 9, 8, 67, 3])
 animals
 """
@@ -278,7 +287,7 @@ animals
 dtype: object
 """
 
-# .loc[] takes an integer as input. 
+# .loc[] takes an integer as input.
 # And it chooses from your Series or DataFrame whichever index matches the number.
 animals.loc[3]
 """
@@ -288,7 +297,7 @@ dtype: object
 """
 
 # iloc[] does a similar thing but works with exact positions.
-animals.iloc[3]  
+animals.iloc[3]
 # snake
 
 # Get all rows up to position 3
@@ -336,7 +345,7 @@ pd.crosstab(car_sales["Make"], car_sales["Doors"])
 
 """
 Doors	3	4	5
-Make			
+Make
 BMW	    0	0	1
 Honda	0	3	0
 Nissan	0	2	0
@@ -344,20 +353,22 @@ Toyota	1	3	0
 """
 
 # If you want to compare more columns in the context of another column, you can use .groupby().
-# Group by the Make column and find the mean of the other columns 
+# Group by the Make column and find the mean of the other columns
 car_sales.groupby(["Make"]).mean()
 
-```  
+```
+
 <br>
 
-## Plotting with Pandas  
+## Plotting with Pandas
+
 <br>
 
-Pandas even allows for quick plotting of columns so you can see your data visualling.   
-To plot, you'll have to import matplotlib. If your plots aren't showing, try running the two lines of code below.  
+Pandas even allows for quick plotting of columns so you can see your data visualling.  
+To plot, you'll have to import matplotlib. If your plots aren't showing, try running the two lines of code below.
 
-%matplotlib inline is a special command which tells Jupyter to show your plots.   
-Commands with % at the front are called magic commands.  
+%matplotlib inline is a special command which tells Jupyter to show your plots.  
+Commands with % at the front are called magic commands.
 
 ```python
 # Import matplotlib and tell Jupyter to show plots
@@ -367,15 +378,17 @@ import matplotlib.pyplot as plt
 # You can visualize a column by calling .plot() on it.
 car_sales["Odometer (KM)"].plot()
 ```
-![odometer](../../src/assets/images/Numpy/odometer.jpg)
+
+![odometer](/assets/images/Numpy/odometer.jpg)
 <br>
 
 ```python
-# You can see the distribution of a column by calling .hist() on you.  
+# You can see the distribution of a column by calling .hist() on you.
 # The distribution of something is a way of describing the spread of different values.
 car_sales["Odometer (KM)"].hist()
 ```
-![bar](../../src/assets/images/Numpy/bar.jpg)
+
+![bar](/assets/images/Numpy/bar.jpg)
 <br>
 
 ```python
@@ -383,18 +396,20 @@ car_sales["Odometer (KM)"].hist()
 car_sales["Price"] = car_sales["Price"].str.replace('[\$\,\.]', '').astype(int)
 car_sales["Price"].plot()
 ```
-![price](../../src/assets/images/Numpy/price.jpg)
+
+![price](/assets/images/Numpy/price.jpg)
 <br>
 
-## Manipulating data  
+## Manipulating data
+
 <br>
 
-You've seen an example of one way to manipulate data but pandas has many more. How many more? Put it this way, if you can imagine it, chances are, pandas can do it.  
+You've seen an example of one way to manipulate data but pandas has many more. How many more? Put it this way, if you can imagine it, chances are, pandas can do it.
 
-Let's start with string methods. Because pandas is based on Python, however you can manipulate strings in Python, you can do the same in pandas.  
+Let's start with string methods. Because pandas is based on Python, however you can manipulate strings in Python, you can do the same in pandas.
 
-You can access the string value of a column using .str. Knowing this, how do you think you'd set a column to lowercase?  
-  
+You can access the string value of a column using .str. Knowing this, how do you think you'd set a column to lowercase?
+
 ```python
 # Lower the Make column
 car_sales["Make"].str.lower()
@@ -468,8 +483,8 @@ car_sales["Number of wheels"] = 4
 car_sales = car_sales.drop("Price per KM", axis=1)
 
 # Why axis=1? Because that's the axis columns live on. Rows live on axis=0.
-# Let's say you wanted to shuffle the order of your DataFrame so 
-# you could split it into train, validation and test sets. 
+# Let's say you wanted to shuffle the order of your DataFrame so
+# you could split it into train, validation and test sets.
 # And even though the order of your samples was random, you wanted to make sure.
 # To do so you could use .sample(frac=1).
 # .sample() randomly samples different rows from a DataFrame.

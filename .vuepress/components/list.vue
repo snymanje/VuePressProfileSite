@@ -37,7 +37,7 @@
                   class="w-8 h-8 rounded-full flex-shrink-0 object-cover object-center"
                 />
                 <span class="flex-grow flex flex-col pl-3">
-                  <span class="title-font font-medium text-gray-900">Jesn Snyman</span>
+                  <span class="title-font font-medium text-gray-900">Jean Snyman</span>
                 </span>
               </a>
             </div>

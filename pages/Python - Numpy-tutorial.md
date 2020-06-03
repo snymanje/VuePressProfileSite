@@ -1,42 +1,47 @@
 ---
-title: Numpy Tutorial 
+title: Numpy Tutorial
 excerpt: "A Quick Introduction to Numerical Data Manipulation with Python and NumPy"
 date: 2020-05-10
-tags: ["python","numpy","ml"]
+tags: ["python", "numpy", "ml"]
 keywords: "numpy data manipulation, manipulating data with numpy"
 cover_image: ""
 ---
 
 # Numpy Tutorial
+
 <br>
 <hr>
 <br>
 
-## What is Numpy?  
+## What is Numpy?
+
 <br>
 
 NumPy stands for numerical Python. It's the backbone of all kinds of scientific and numerical computing in Python.  
-And since machine learning is all about turning data into numbers and then figuring out the patterns, NumPy often comes into play.  
-  
-You can do numerical calculations using pure Python. In the beginning, you might think Python is fast but once your data gets large, you'll start to notice slow downs.  
-  
-One of the main reasons you use NumPy is because it's fast. Behind the scenes, the code has been optimized to run using C. Which is another programming language, which can do things much faster than Python.  
-  
+And since machine learning is all about turning data into numbers and then figuring out the patterns, NumPy often comes into play.
+
+You can do numerical calculations using pure Python. In the beginning, you might think Python is fast but once your data gets large, you'll start to notice slow downs.
+
+One of the main reasons you use NumPy is because it's fast. Behind the scenes, the code has been optimized to run using C. Which is another programming language, which can do things much faster than Python.
+
 <br>
 
 ## Importing NumPy
+
 <br>
 
 ```python
 import numpy as np
 ```
+
 <br>
 
-## DataTypes and attributes  
+## DataTypes and attributes
+
 <br>
 
-**NOTE:** It's important to remember the ***main type*** in NumPy is ***ndarray***, even seemingly different kinds of arrays are still ndarray's. This means an operation you do on one array, will work on another.  
-  
+**NOTE:** It's important to remember the **_main type_** in NumPy is **_ndarray_**, even seemingly different kinds of arrays are still ndarray's. This means an operation you do on one array, will work on another.
+
 ```python
 # 1-dimensonal array, also referred to as a vector
 a1 = np.array([1, 2, 3])
@@ -75,29 +80,31 @@ a3.shape, a3.ndim, a3.dtype, a3.size, type(a3)
 # ((2, 3, 3), 3, dtype('int64'), 18, numpy.ndarray)
 
 ```
+
 <br>
 
-![NumpyArrayAnatomy.png](../../src/assets/images/Numpy/NumpyArrayAnatomy.png)
+![NumpyArrayAnatomy.png](/assets/images/Numpy/NumpyArrayAnatomy.png)
 
 <br>
 
 Key terms:
 
-* **Array** - A list of numbers, can be multi-dimensional.
-* **Scalar** - A single number (e.g. 7).
-* **Vector** - A list of numbers with 1-dimesion (e.g. np.array([1, 2, 3])).
-* **Matrix** - A (usually) multi-deminsional list of numbers (e.g. np.array([[1, 2, 3], [4, 5, 6]])).  
-    
+- **Array** - A list of numbers, can be multi-dimensional.
+- **Scalar** - A single number (e.g. 7).
+- **Vector** - A list of numbers with 1-dimesion (e.g. np.array([1, 2, 3])).
+- **Matrix** - A (usually) multi-deminsional list of numbers (e.g. np.array([[1, 2, 3], [4, 5, 6]])).
+
 <br>
 
-## Creating a Pandas DataFrame out of NumPy arrays  
+## Creating a Pandas DataFrame out of NumPy arrays
+
 <br>
 
-This is to examplify how NumPy is the backbone of many other libraries.  
+This is to examplify how NumPy is the backbone of many other libraries.
 
 ```python
 import pandas as pd
-df = pd.DataFrame(np.random.randint(10, size=(5, 3)), 
+df = pd.DataFrame(np.random.randint(10, size=(5, 3)),
                                     columns=['a', 'b', 'c'])
 df
 
@@ -126,17 +133,19 @@ df
 1	4.0	5.0	6.5
 """
 ```
+
 <br>
 
 ## Creating arrays
+
 <br>
 
-* np.array()
-* np.ones()
-* np.zeros()
-* np.random.rand(5, 3)
-* np.random.randint(10, size=5)
-* np.random.seed() - pseudo random numbers  
+- np.array()
+- np.ones()
+- np.zeros()
+- np.random.rand(5, 3)
+- np.random.randint(10, size=5)
+- np.random.seed() - pseudo random numbers
 
 <br>
 
@@ -224,17 +233,18 @@ array([[0.66962815, 0.70759503, 0.81030571],
        [0.06752272, 0.73464427, 0.0827841 ]])
 """
 ```
+
 <br>
 
-NumPy uses pseudo-random numbers, which means, the numbers look random but aren't really, they're predetermined.  
+NumPy uses pseudo-random numbers, which means, the numbers look random but aren't really, they're predetermined.
 
-For consistency, you might want to keep the random numbers you generate similar throughout experiments.  
+For consistency, you might want to keep the random numbers you generate similar throughout experiments.
 
-To do this, you can use **np.random.seed()**.  
+To do this, you can use **np.random.seed()**.
 
-What this does is it tells NumPy, "Hey, I want you to create random numbers but keep them aligned with the seed."  
+What this does is it tells NumPy, "Hey, I want you to create random numbers but keep them aligned with the seed."
 
-Let's see it.  
+Let's see it.
 
 ```python
 np.random.seed(42)
@@ -261,23 +271,25 @@ array([[6, 3, 7],
        [7, 2, 5]])
 """
 ```
+
 <br>
 
-Because **np.random.seed()** is set to 0, the random numbers are the same as the cell with np.random.seed() set to 0 as well.  
+Because **np.random.seed()** is set to 0, the random numbers are the same as the cell with np.random.seed() set to 0 as well.
 
-Setting np.random.seed() is not 100% necessary but it's helpful to keep numbers the same throughout your experiments.  
+Setting np.random.seed() is not 100% necessary but it's helpful to keep numbers the same throughout your experiments.
 
-For example, say you wanted to split your data randomly into training and test sets.  
+For example, say you wanted to split your data randomly into training and test sets.
 
-Every time you randomly split, you might get different rows in each set.  
+Every time you randomly split, you might get different rows in each set.
 
-If you shared your work with someone else, they'd get different rows in each set too.  
+If you shared your work with someone else, they'd get different rows in each set too.
 
-Setting np.random.seed() ensures there's still randomness, it just makes the randomness repeatable. Hence the 'pseudo-random' numbers.  
+Setting np.random.seed() ensures there's still randomness, it just makes the randomness repeatable. Hence the 'pseudo-random' numbers.
 
 <br>
 
 ## Find the unique values in array
+
 <br>
 
 ```python
@@ -297,13 +309,15 @@ print(arr)
 print(np.unique(arr))
 # [2 3 4 5 6 7 9]
 ```
+
 <br>
 
 ## Viewing arrays and matrices (indexing)
+
 <br>
 
-Remember, because arrays and matrices are both ndarray's, they can be viewed in similar ways.  
-  
+Remember, because arrays and matrices are both ndarray's, they can be viewed in similar ways.
+
 NumPy arrays get printed from outside to inside. This means the number at the end of the shape comes first, and the number at the start of the shape comes last.
 
 ```python
@@ -347,44 +361,47 @@ array([[[ 1,  2],
         [13, 14]]])
 """
 ```
+
 <br>
 
 ## Manipulating and comparying arrays
+
 <br>
 
-* Arithmetic
-  * +, -, *, /, //, **, %
-  * np.exp()
-  * np.log()
-  * Dot product - np.dot()
-  * Broadcasting
-* Aggregation
-  * np.sum() - faster than .sum(), make demo, np is really fast
-  * np.mean()
-  * np.std()
-  * np.var()
-  * np.min()
-  * np.max()
-  * np.argmin() - find index of minimum value
-  * np.argmax() - find index of maximum value
-  * These work on all ndarray's
-    * a4.min(axis=0) -- you can use axis as well
-* Reshaping
-  * np.reshape()
-  * Transposing
-  * a3.T
-* Comparison operators
-  * \>
-  * <
-  * <=
-  * \>=
-  * x != 3
-  * x == 3
-  * np.sum(x > 3)  
+- Arithmetic
+  - +, -, \*, /, //, \*\*, %
+  - np.exp()
+  - np.log()
+  - Dot product - np.dot()
+  - Broadcasting
+- Aggregation
+  - np.sum() - faster than .sum(), make demo, np is really fast
+  - np.mean()
+  - np.std()
+  - np.var()
+  - np.min()
+  - np.max()
+  - np.argmin() - find index of minimum value
+  - np.argmax() - find index of maximum value
+  - These work on all ndarray's
+    - a4.min(axis=0) -- you can use axis as well
+- Reshaping
+  - np.reshape()
+  - Transposing
+  - a3.T
+- Comparison operators
+  - \>
+  - <
+  - <=
+  - \>=
+  - x != 3
+  - x == 3
+  - np.sum(x > 3)
 
 <br>
 
 ### Arithmetic
+
 <br>
 
 ```python
@@ -439,12 +456,14 @@ np.log(a1)
 # Find the exponential of an array
 np.exp(a1)
 ```
+
 <br>
 
-### Aggregation  
+### Aggregation
+
 <br>
 
-Aggregation - bringing things together, doing a similar thing on a number of things.  
+Aggregation - bringing things together, doing a similar thing on a number of things.
 
 ```python
 # Find the mean
@@ -465,22 +484,26 @@ np.var(a2)
 # The standard deviation is the square root of the variance
 np.sqrt(np.var(a2))
 ```
+
 <br>
 
 ### What's mean?
-Mean is the same as average. You can find the average of a set of numbers by adding them up and dividing them by how many there are.  
 
-### What's standard deviation?  
-Standard deviation is a measure of how spread out numbers are.  
+Mean is the same as average. You can find the average of a set of numbers by adding them up and dividing them by how many there are.
 
-### What's variance?  
-The variance is the averaged squared differences of the mean.  
+### What's standard deviation?
+
+Standard deviation is a measure of how spread out numbers are.
+
+### What's variance?
+
+The variance is the averaged squared differences of the mean.
 
 To work it out, you:
 
-* Work out the mean
-* For each number, subtract the mean and square the result
-* Find the average of the squared differences  
+- Work out the mean
+- For each number, subtract the mean and square the result
+- Find the average of the squared differences
 
 <br>
 
@@ -504,6 +527,7 @@ print(np.sqrt(np.var(low_var_array)))
 2.8284271247461903
 """
 ```
+
 <br>
 
 ### Reshaping
@@ -553,13 +577,15 @@ array([[[ 2. ,  3. ,  4. ],
         [22.5, 23.5, 24.5]]])
 """
 ```
+
 <br>
 
 ### Transpose
+
 <br>
 
 The transpose of a matrix is obtained by moving the rows data to the column and columns data to the rows.  
-If we have an array of shape (X, Y) then the transpose of the array will have the shape (Y, X).  
+If we have an array of shape (X, Y) then the transpose of the array will have the shape (Y, X).
 
 ```python
 matrix = np.random.random(size=(5,3,3))
@@ -618,9 +644,11 @@ array([[[5.64115790e-02, 5.24774660e-01, 4.66762893e-01, 2.30893826e-01,
 matrix.T.shape
 # (3, 3, 5)
 ```
+
 <br>
 
 ### Dot product practical example, nut butter sales
+
 <br>
 
 ```python
@@ -711,6 +739,7 @@ Thurs	4	            6	            12	            232
 Fri	    1	            6	            7	            142
 """
 ```
+
 <br>
 
 ### Comparison operators
@@ -752,15 +781,17 @@ array([[[ True],
         [ True]]])
 """
 ```
+
 <br>
 
 ## Sorting arrays
+
 <br>
 
-* np.sort()
-* np.argsort()
-* np.argmax()
-* np.argmin()  
+- np.sort()
+- np.argsort()
+- np.argmax()
+- np.argmin()
 
 <br>
 
@@ -816,12 +847,14 @@ np.argmax(random_array, axis=1)
 np.argmin(random_array, axis=0)
 # array([3, 4, 0])
 ```
+
 <br>
 
-## Turning an image of a panda into numbers  
+## Turning an image of a panda into numbers
+
 <br>
 
-![numpypanda](../../src/assets/images/Numpy/numpypanda.png)
+![numpypanda](/assets/images/Numpy/numpypanda.png)
 
 ```python
 from matplotlib.image import imread

@@ -2,19 +2,20 @@
 title: Git and GitHub Basics
 excerpt: "A list of git commands I use on a daily basis."
 date: 2020-01-04
-tags: ["Git","GitHub"]
+tags: ["Git", "GitHub"]
 keywords: "git commands"
 cover_image: "./images/cover/git.jpg"
 ---
 
 # Git and GitHub Basics
+
 <br>
 <hr>
 <br>
 
-![whyIusegit](../../src/assets/images/Git/whyIusegit.jpg)  
+![whyIusegit](/assets/images/Git/whyIusegit.jpg)
 
-![GitHub](../../src/assets/images/Git/github.jpg)
+![GitHub](/assets/images/Git/github.jpg)
 
 ## Git Configs
 
@@ -28,40 +29,47 @@ git config --global user.email jeansn123@gmail.com
 git config user.name
 
 ```
+
 <br>
 
 ## How Git works
 
-![repo](../../src/assets/images/Git/repo.jpg)
+![repo](/assets/images/Git/repo.jpg)
 
-![commits](../../src/assets/images/Git/commits.jpg)
+![commits](/assets/images/Git/commits.jpg)
 
-![commits](../../src/assets/images/Git/commits2.jpg)
+![commits](/assets/images/Git/commits2.jpg)
 
 <br>
 
 ## Create a New Git Repository
+
 <br>
 
 This creates a .git folder in the root directory that tracks all the changes to the files.
+
 ```bash
 git init
 ```
+
 <br>
 
 To exclude any files from being tracked you need to add a .gitinore file in the root of you project and add the files or folders that should be excluded.
+
 ```bash
 # In the file you can add thing like this
 node_modules
 dist
 .cache
 ```
+
 <br>
 
 ## Staging Files
+
 <br>
 
-![staging1](../../src/assets/images/Git/staging1.jpg)
+![staging1](/assets/images/Git/staging1.jpg)
 
 ```bash
 #Check which files are in the staging area
@@ -75,14 +83,16 @@ git add <path to file>  # git add src\assets\images\Git\github.jpg
 git rm --cache <path to file>  # git rm --cache src/assets/images/Git/github.jpg
 
 # Add all files to staging at once
-git add . 
+git add .
 ```
+
 <br>
 
 ## Commiting Files
+
 <br>
 
-![commiting](../../src/assets/images/Git/commiting.jpg)
+![commiting](/assets/images/Git/commiting.jpg)
 
 ```bash
 # Commiting staged files
@@ -94,12 +104,14 @@ git log
 # condenced
 git log --oneline
 ```
+
 <br>
 
 ## Undoing Things
+
 <br>
 
-![undoingThings](../../src/assets/images/Git/undoingThings.jpg)
+![undoingThings](/assets/images/Git/undoingThings.jpg)
 
 ```bash
 # Checkout commit ( Shows the code at a point in time )
@@ -111,27 +123,29 @@ git checkout master
 # Revert commit ( Undo commit )
 git revert 5bb549d
 # to get out of the file
-:wq 
+:wq
 
 # Reset commit  ( Remove all commits to a point in time, files become uncommited )
 git reset 5bb549d
 
 ```
+
 <br>
 
 ## Branches
+
 <br>
 
-![branches](../../src/assets/images/Git/branches.jpg)
+![branches](/assets/images/Git/branches.jpg)
 
 ```bash
 # create a branch
 git branch <name> # git branch feature-1
 
-# list branches 
+# list branches
 git branch -a
 
-# switch to different branch 
+# switch to different branch
 git checkout <branch name> # git checkout feature-1
 
 # delete a branch
@@ -141,9 +155,11 @@ git checkout <branch name> # git checkout feature-1
  git checkout -b <branch name> # git checkout -b feature-1
 
 ```
+
 <br>
 
 ## Merging Branches
+
 <br>
 
 ```bash
@@ -153,18 +169,18 @@ git checkout master
 git merge feature-1
 
 ```
+
 <br>
 
 ## GitHub
+
 <br>
 
-![github2](../../src/assets/images/Git/github2.jpg)
-
+![github2](/assets/images/Git/github2.jpg)
 
 <br>
 
 ## Add remote branch in VSCode ( when remote repository already exists )
-
 
 ```bash
 #Start new local repository
@@ -179,11 +195,13 @@ git remote -v
 
 git pull origin master
 ```
+
 <br>
 
-*** Remote name already exists***
- 
-## Rename remote 
+**_ Remote name already exists_**
+
+## Rename remote
+
 ```bash
 git remote -v
 # View existing remotes
@@ -198,9 +216,11 @@ git remote -v
 > destination  https://github.com/OWNER/REPOSITORY.git (fetch)
 > destination  https://github.com/OWNER/REPOSITORY.git (push)
 ```
+
 <br>
 
 ## Delete remote
+
 ```bash
 git remote -v
 # View current remotes
@@ -215,22 +235,28 @@ git remote -v
 # Verify it's gone
 > origin  https://github.com/OWNER/REPOSITORY.git (fetch)
 > origin  https://github.com/OWNER/REPOSITORY.git (push)
-```  
+```
+
 <br>
 
 ## Clone a Repo
+
 ```bash
 git clone <repo link>
 ```
+
 <br>
 
 ## Push Code to Repo
+
 ```bash
 git push origin master
 ```
+
 <br>
 
 ## Pull Code Changes from Remote Repo
+
 ```bash
 git pull origin master
 ```

@@ -1,31 +1,34 @@
 ---
-title: Matplotlib Tutorial 
+title: Matplotlib Tutorial
 excerpt: "A Quick Introduction to Plotting and Data Visualization with Matplotlib and Python"
 date: 2020-05-15
-tags: ["python","matplotlib","ml"]
+tags: ["python", "matplotlib", "ml"]
 keywords: "plotting with matplotlib"
 cover_image: ""
 ---
 
 # Matplotlib Tutorial
+
 <br>
 <hr>
 <br>
 
-## Why Matplotlib?  
-<br>
-
-* Built on Numpy arrays (and Python)
-* Integrates directly with Pandas
-* Can create basic or Advanced plots
-* Simple to use interface
+## Why Matplotlib?
 
 <br>
 
-![matplotlib_workflow](../../src/assets/images/Numpy/matplotlib_workflow.jpg)  
+- Built on Numpy arrays (and Python)
+- Integrates directly with Pandas
+- Can create basic or Advanced plots
+- Simple to use interface
+
+<br>
+
+![matplotlib_workflow](/assets/images/Numpy/matplotlib_workflow.jpg)  
 <br>
 
 A simple matplotlib workflow example
+
 ```python
 # 0. Import and get matplotlib ready
 %matplotlib inline
@@ -46,13 +49,16 @@ ax.set(title="Sample Simple Plot", xlabel="x-axis", ylabel="y-axis");
 # 5. Save & show
 fig.savefig("../images/simple-plot.png")
 ```
-![simple_example](../../src/assets/images/Matplotlib/simple_example.jpg)
+
+![simple_example](/assets/images/Matplotlib/simple_example.jpg)
 <br>
 
 ## Making the most common type of plots using NumPy arrays
+
 <br>
 
 Line plot ( also the default )
+
 ```python
 # Create an array
 x = np.linspace(0, 10, 100)
@@ -62,19 +68,23 @@ x[:10]
 fig, ax = plt.subplots()
 ax.plot(x, x**2);
 ```
-![line_plot](../../src/assets/images/Matplotlib/line_plot.jpg)
+
+![line_plot](/assets/images/Matplotlib/line_plot.jpg)
 <br>
 
 Scatter plot
+
 ```python
 # Need to recreate our figure and axis instances when we want a new figure
 fig, ax = plt.subplots()
 ax.scatter(x, np.exp(x));
 ```
-![scatter_plot](../../src/assets/images/Matplotlib/scatter_plot.jpg)
+
+![scatter_plot](/assets/images/Matplotlib/scatter_plot.jpg)
 <br>
 
 Bar plot
+
 ```python
 # You can make plots from a dictionary (Vertical)
 nut_butter_prices = {"Almond butter": 10,
@@ -88,12 +98,14 @@ ax.set(title="Dan's Nut Butter Store", ylabel="Price ($)");
 fig, ax = plt.subplots()
 ax.barh(list(nut_butter_prices.keys()), list(nut_butter_prices.values()));
 ```
-![bar_plot_v](../../src/assets/images/Matplotlib/bar_plot_v.jpg)  
 
-![bar_plot_h](../../src/assets/images/Matplotlib/bar_plot_h.jpg)
+![bar_plot_v](/assets/images/Matplotlib/bar_plot_v.jpg)
+
+![bar_plot_h](/assets/images/Matplotlib/bar_plot_h.jpg)
 <br>
 
 Histogram (hist)
+
 ```python
 # Make some data from a normal distribution
 x = np.random.randn(1000) # pulls data from a normal distribution
@@ -101,10 +113,12 @@ x = np.random.randn(1000) # pulls data from a normal distribution
 fig, ax = plt.subplots()
 ax.hist(x);
 ```
-![hist_plot](../../src/assets/images/Matplotlib/hist_plot.jpg)
+
+![hist_plot](/assets/images/Matplotlib/hist_plot.jpg)
 <br>
 
 ## Plotting with pandas using the OO method
+
 <br>
 
 ```python
@@ -124,14 +138,15 @@ over_50 = heart_disease[heart_disease["age"] > 50]
 
 # create scatter plot comparing age and chol.
 fig, ax = plt.subplots(figsize=(10, 6))
-over_50.plot(kind='scatter', 
-             x="age", 
-             y="chol", 
-             c='target', 
+over_50.plot(kind='scatter',
+             x="age",
+             y="chol",
+             c='target',
              ax=ax);
 ax.set_xlim([45, 100]);
 ```
-![pandas_scatter_plot_age_v_chol](../../src/assets/images/Matplotlib/pandas_scatter_plot_age_v_chol.jpg)
+
+![pandas_scatter_plot_age_v_chol](/assets/images/Matplotlib/pandas_scatter_plot_age_v_chol.jpg)
 <br>
 
 ```python
@@ -141,8 +156,8 @@ ax.set_xlim([45, 100]);
 fig, ax = plt.subplots(figsize=(10, 6))
 
 # Plot the data
-scatter = ax.scatter(over_50["age"], 
-                     over_50["chol"], 
+scatter = ax.scatter(over_50["age"],
+                     over_50["chol"],
                      c=over_50["target"])
 
 # Customize the plot
@@ -151,17 +166,19 @@ ax.set(title="Heart Disease and Cholesterol Levels",
        ylabel="Cholesterol");
 ax.legend(*scatter.legend_elements(), title="Target");
 ```
-![pandas_scatter_plot_age_v_chol](../../src/assets/images/Matplotlib/pandas_scatter_plot_age_v_chol_2.jpg)
+
+![pandas_scatter_plot_age_v_chol](/assets/images/Matplotlib/pandas_scatter_plot_age_v_chol_2.jpg)
 <br>
 
 What if we wanted a horizontal line going across with the mean of heart_disease["chol"]?
+
 ```python
 # Create the plot
 fig, ax = plt.subplots(figsize=(10, 6))
 
 # Plot the data
-scatter = ax.scatter(over_50["age"], 
-                     over_50["chol"], 
+scatter = ax.scatter(over_50["age"],
+                     over_50["chol"],
                      c=over_50["target"])
 
 # Customize the plot
@@ -174,7 +191,8 @@ ax.legend(*scatter.legend_elements(), title="Target")
 ax.axhline(over_50["chol"].mean(),
            linestyle="--");
 ```
-![pandas_scatter_plot_age_v_chol](../../src/assets/images/Matplotlib/pandas_scatter_plot_age_v_chol_3.jpg)
+
+![pandas_scatter_plot_age_v_chol](/assets/images/Matplotlib/pandas_scatter_plot_age_v_chol_3.jpg)
 <br>
 
 ## Saving plots
