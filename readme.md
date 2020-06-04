@@ -1,3 +1,7 @@
+---
+pageClass: custom-page-class
+---
+
 <hero />
 <blogs />
 <projects />
@@ -5,5 +9,5 @@
 <projects />
 <skills />
 <testimonials />
-<contact /> -->
+<contact />-->
 <footr />

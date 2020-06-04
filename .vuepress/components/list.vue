@@ -1,7 +1,7 @@
 <template>
   <section class="text-gray-700 body-font">
     <div class="container px-2 py-2 mx-auto">
-      <div class="flex flex-wrap text-center w-full mb-20">
+      <div class="flex flex-wrap text-center w-full my-10">
         <button
           class="bg-green-700 text-white hover:bg-green-800 hover:text-white font-semibold py-2 px-3 mr-2 mb-2 rounded-full shadow"
         >All</button>
@@ -26,10 +26,7 @@
               <h1 class="title-font text-xl font-medium text-gray-900 mb-3">
                 <a v-bind:href="page.path">{{page.title}}</a>
               </h1>
-              <p class="leading-relaxed mb-5">
-                Photo booth fam kinfolk cold-pressed sriracha leggings
-                jianbing microdosing tousled waistcoat.
-              </p>
+              <p class="leading-relaxed mb-5">{{page.frontmatter.excerpt}}</p>
               <a class="inline-flex items-center">
                 <img
                   alt="blog"
@@ -59,6 +56,7 @@
 export default {
   computed: {
     files() {
+      console.log(this.$site.pages);
       return this.$site.pages.filter(p => {
         return (
           p.path.indexOf("/pages/") >= 0 && p.relativePath !== "pages/readme.md"

@@ -14,5 +14,7 @@ module.exports = {
       { text: "Home", link: "/" },
       { text: "Blog", link: "/pages/" },
     ],
-  }
+    searchPlaceholder: "Search...",
+    smoothScroll: true,
+  },
 };

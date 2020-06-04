@@ -1,7 +1,6 @@
 ---
 title: Executing Powershell commands in a Nodejs API
-excerpt: "In this post I'm going to create a very simple Web API in Node, that will run a Powershell command on the back-end to retrieve information about a running process.
-I'll be using three modules to assist me with this, express.js, nodemon and node-powershell."
+excerpt: A simple Web API in Node, that will run a Powershell command on the back-end to retrieve information about a running process
 date: 2019-07-06
 tags: ["nodejs", "Powershell"]
 keywords: "nodejs, powershell, powershell in node"
