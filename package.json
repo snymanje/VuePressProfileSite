@@ -1,23 +1,23 @@
 {
-  "name": "jsdev.dev",
-  "version": "1.0.0",
-  "description": "Profile Site",
-  "main": "index.js",
-  "dependencies": {
-    "nodemon": "^2.0.3",
-    "tailwindcss": "^1.4.6",
-    "vuepress": "^1.5.0",
-    "@vuepress/plugin-back-to-top": "^1.0.4",
-    "@vuepress/plugin-medium-zoom": "^1.0.4",
-    "@vuepress/plugin-nprogress": "^1.0.4",
-    "@vuepress/plugin-pwa": "^1.0.4"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "dev": "vuepress dev",
-    "start": "nodemon --ext md,vue --watch .vuepress --watch . --exec vuepress dev",
-    "build": "vuepress build"
-  },
-  "author": "",
-  "license": "ISC"
+    "name": "jsdev.dev",
+    "version": "1.0.0",
+    "description": "Profile Site",
+    "main": "index.js",
+    "dependencies": {
+        "nodemon": "^2.0.3",
+        "tailwindcss": "^1.4.6",
+        "vuepress": "^1.5.0",
+        "@vuepress/plugin-back-to-top": "^1.0.4",
+        "@vuepress/plugin-medium-zoom": "^1.0.4",
+        "@vuepress/plugin-nprogress": "^1.0.4",
+        "@vuepress/plugin-pwa": "^1.0.4"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "dev": "vuepress dev",
+        "start": "nodemon --ext md,vue --watch .vuepress --watch . --exec vuepress dev",
+        "build": "vuepress build"
+    },
+    "author": "",
+    "license": "ISC"
 }

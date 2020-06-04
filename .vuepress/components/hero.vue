@@ -20,11 +20,6 @@
             tag="button"
             class="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg"
           >Blog</router-link>
-          <!--           <router-link
-  to="/pages"
-          <button
-            class="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg"
-          >Blog</button>-->
         </div>
       </div>
       <div class="lg:w-1/4 md:w-2/4 flex flex-col justify-center lg:ml-6 md:ml-1">
