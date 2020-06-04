@@ -4,7 +4,7 @@ pageClass: custom-page-class
 
 <hero />
 <blogs />
-<projects />
+<!-- <projects /> -->
 <!-- <whatido />
 <projects />
 <skills />

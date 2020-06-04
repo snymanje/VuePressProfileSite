@@ -4,7 +4,7 @@
       <div
         class="lg:w-3/4 md:w-2/4 flex flex-col lg:pr-40 md:items-start md:text-left mb-16 md:mb-0 items-center text-center"
       >
-        <h1 class="title-font sm:text-5xl text-4xl mb-2 font-medium text-gray-900">About me</h1>
+        <h1 class="title-font sm:text-5xl text-4xl mb-2 font-medium text-gray-800">About me</h1>
         <div class="flex mb-4">
           <div class="w-16 h-1 rounded-full bg-green-500 inline-flex"></div>
         </div>
@@ -15,9 +15,16 @@
           Automation and Machine Learning.
         </p>
         <div class="flex justify-center">
+          <router-link
+            to="/pages"
+            tag="button"
+            class="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg"
+          >Blog</router-link>
+          <!--           <router-link
+  to="/pages"
           <button
             class="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg"
-          >Blog</button>
+          >Blog</button>-->
         </div>
       </div>
       <div class="lg:w-1/4 md:w-2/4 flex flex-col justify-center lg:ml-6 md:ml-1">

@@ -3,13 +3,13 @@
     <div class="container px-2 py-2 mx-auto">
       <div class="flex flex-wrap text-center w-full my-10">
         <button
-          class="bg-green-700 text-white hover:bg-green-800 hover:text-white font-semibold py-2 px-3 mr-2 mb-2 rounded-full shadow"
+          class="bg-green-500 text-white hover:bg-green-800 hover:text-white focus:outline-none font-semibold py-2 px-3 mr-2 mb-2 rounded-full shadow"
         >All</button>
         <button
-          class="text-gray-800 hover:bg-green-800 hover:text-white font-semibold py-2 px-3 mr-2 mb-2 rounded-full shadow"
+          class="text-gray-800 hover:bg-green-800 hover:text-white focus:outline-none font-semibold py-2 px-3 mr-2 mb-2 rounded-full shadow"
         >JavaScript</button>
         <button
-          class="text-gray-800 hover:bg-green-800 hover:text-white font-semibold py-2 px-3 mr-2 mb-2 rounded-full shadow"
+          class="text-gray-800 hover:bg-green-800 hover:text-white focus:outline-none font-semibold py-2 px-3 mr-2 mb-2 rounded-full shadow"
         >Python</button>
       </div>
       <div class="flex flex-wrap -mx-4 -my-8">
@@ -19,14 +19,17 @@
               <span class="text-gray-500 pb-2 mb-2 border-b-2 border-gray-300">Jul</span>
               <span class="font-medium text-xl text-gray-800 title-font">18</span>
             </div>
-            <div class="flex-grow pl-6">
-              <h2
-                class="tracking-widest text-xs title-font font-medium text-green-500 mb-1"
-              >MACHINE LEARNING</h2>
-              <h1 class="title-font text-xl font-medium text-gray-900 mb-3">
-                <a v-bind:href="page.path">{{page.title}}</a>
-              </h1>
-              <p class="leading-relaxed mb-5">{{page.frontmatter.excerpt}}</p>
+            <div class="flex flex-col pl-6 h-full">
+              <div class="mb-auto">
+                <h2
+                  class="tracking-widest text-xs title-font font-medium text-green-500 mb-1"
+                >MACHINE LEARNING</h2>
+                <h1 class="title-font text-xl font-medium text-gray-800 my-2">
+                  <a v-bind:href="page.path">{{page.title}}</a>
+                </h1>
+                <p class="leading-relaxed mb-5">{{page.frontmatter.excerpt}}</p>
+              </div>
+
               <a class="inline-flex items-center">
                 <img
                   alt="blog"
@@ -34,7 +37,7 @@
                   class="w-8 h-8 rounded-full flex-shrink-0 object-cover object-center"
                 />
                 <span class="flex-grow flex flex-col pl-3">
-                  <span class="title-font font-medium text-gray-900">Jean Snyman</span>
+                  <span class="title-font font-medium text-gray-800">Jean Snyman</span>
                 </span>
               </a>
             </div>
@@ -56,12 +59,15 @@
 export default {
   computed: {
     files() {
-      console.log(this.$site.pages);
-      return this.$site.pages.filter(p => {
+      const blogs = this.$site.pages.filter(p => {
         return (
           p.path.indexOf("/pages/") >= 0 && p.relativePath !== "pages/readme.md"
         );
       });
+
+      return blogs.sort(
+        (a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date)
+      );
     }
   }
 };
