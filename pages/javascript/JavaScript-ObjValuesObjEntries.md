@@ -4,10 +4,11 @@ excerpt: "JavaScript - Object.values() and Object.entries() Examples"
 date: 2019-12-27
 tags: ["Javascript"]
 keywords: "javascript"
-cover_image: ""
+sidebar: auto
 ---
 
 # Object.values() and Object.entries()
+
 <br>
 <hr>
 <br>
@@ -24,13 +25,14 @@ const fruits = {
   apple: 10,
   orange: 20,
   grapes: 30,
-  pineapple: 40
+  pineapple: 40,
 };
 
 const result = Object.values(fruits);
 
 console.log(result); // [ 10, 20, 30, 40 ]
 ```
+
 <br>
 
 ## Object.entries()
@@ -42,7 +44,7 @@ const fruits = {
   apple: 10,
   orange: 20,
   grapes: 30,
-  pineapple: 40
+  pineapple: 40,
 };
 
 for (const [key, val] of Object.entries(fruits)) {
@@ -55,6 +57,3 @@ grapes 30
 pineapple 40 
 */
 ```
-
-
-

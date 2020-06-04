@@ -4,7 +4,7 @@ excerpt: "Progressive Web Application Guide"
 date: 2020-01-08
 tags: ["PWA", "Service Worker"]
 keywords: "javascript, pwa, Service Worker"
-cover_image: ""
+sidebar: auto
 ---
 
 # Progressive Web Apps

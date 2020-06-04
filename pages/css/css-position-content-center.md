@@ -1,13 +1,14 @@
 ---
-title: Position content in the center using CSS position. 
+title: Position content in the center using CSS position.
 excerpt: "Sometimes you need to position content perfectly in the middle without using flexbox or grid."
 date: 2019-08-29
 tags: ["CSS"]
 keywords: "CSS Positioning"
-cover_image: ""
+sidebar: auto
 ---
 
 # Positioning content perfectly in the middle
+
 <br>
 <hr>
 <br>
@@ -17,33 +18,35 @@ Then you need to set the top and left properties to 50% which will place the sta
 See example below.
 
 The HTML part
+
 ```html
 <body>
-    <div class="main">
-      <h2>I want this in the middle</h2>
-    </div>
+  <div class="main">
+    <h2>I want this in the middle</h2>
+  </div>
 </body>
 ```
-<br>
 
+<br>
 
 The CSS part
+
 ```css
 .main {
-        position: relative;
-        height: 100vh;
-        width: 100%;
+  position: relative;
+  height: 100vh;
+  width: 100%;
 }
 h2 {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 ```
+
 <br>
 
-CodeSandBox example  
+CodeSandBox example
 
 https://codesandbox.io/embed/position-content-in-the-middle-with-css-position-property-uffoq?fontsize=14
-

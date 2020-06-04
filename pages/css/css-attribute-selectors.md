@@ -1,16 +1,9 @@
 ---
 title: CSS Attribute Selectors
 excerpt: Looking at attribute selectors in CSS
-lang: en-US
-published: 2019-08-20
-tags:
-  - configuration
-  - theme
-  - indexing
-meta:
-  keywords:
-    - CSS Attributes
-description: Looking at attribute selectors in CS
+date: 2019-08-20
+tags: ["CSS"]
+keywords: "CSS Attribute Selectors"
 sidebar: auto
 ---
 

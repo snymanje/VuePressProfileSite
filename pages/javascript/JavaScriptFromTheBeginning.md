@@ -4,7 +4,7 @@ excerpt: "JavaScript from the beginning."
 date: 2019-11-29
 tags: ["Javascript"]
 keywords: "javascript"
-cover_image: ""
+sidebar: auto
 ---
 
 # JavaScript from the beginning.

@@ -4,10 +4,11 @@ excerpt: "JavaScript - Generator examples"
 date: 2019-12-26
 tags: ["Javascript"]
 keywords: "javascript"
-cover_image: ""
+sidebar: auto
 ---
 
 # Generators
+
 <br>
 <hr>
 <br>

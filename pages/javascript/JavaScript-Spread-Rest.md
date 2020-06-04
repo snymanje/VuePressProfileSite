@@ -4,10 +4,11 @@ excerpt: "JavaScript - Spread and Rest Operator examples"
 date: 2019-12-26
 tags: ["Javascript"]
 keywords: "javascript"
-cover_image: ""
+sidebar: auto
 ---
 
 # The Spread and Rest Operators
+
 <br>
 <hr>
 <br>
@@ -26,7 +27,7 @@ const { firstName, age, ...remaining } = {
   lastName: "Smith",
   age: 20,
   height: "5.10",
-  race: "martian"
+  race: "martian",
 };
 
 console.log(firstName); // Jean
@@ -35,34 +36,36 @@ console.log(age); // 20
 
 console.log(remaining); // { lastName: 'Smith', height: '5.10', race: 'martian' }
 ```
+
 <br>
 
 ## Spread
 
-Spread properties also look just like rest properties with three dots ...but the difference is that you use spread to create (restructure) new objects.  
+Spread properties also look just like rest properties with three dots ...but the difference is that you use spread to create (restructure) new objects.
 
-> ***The spread operator is used in the right side of the equals sign. The rest are used in the left-side of the equals sign.***
+> **_The spread operator is used in the right side of the equals sign. The rest are used in the left-side of the equals sign._**
 
 ```javascript
 const defaultUser = {
   FirstName: "Jean",
   LastName: "Snyman",
-  Age: 35
+  Age: 35,
 };
 
 const additionalUserProps = {
   Email: "jeans@gmail.com",
-  Age: 40
+  Age: 40,
 };
 
 //Merge two objects using object spread
 const user2 = { ...defaultUser, ...additionalUserProps };
 
-console.log(user2); 
-// { 
+console.log(user2);
+// {
 //   FirstName: 'Jean',
 //   LastName: 'Snyman',
 //   Age: 40,
-//   
+//
 ```
+
 <br>

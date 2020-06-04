@@ -4,7 +4,7 @@ excerpt: "A Guide on setting up ESLint and Prettier in VSCdoe for better code qu
 date: 2020-01-15
 tags: ["JavaScript"]
 keywords: "Setup ESLint and Prettier in VSCode"
-cover_image: ""
+sidebar: auto
 ---
 
 # Setup ESLint and Prettier in VSCode

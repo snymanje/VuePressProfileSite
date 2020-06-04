@@ -4,7 +4,7 @@ excerpt: "A Guide on setting up webpack with a Vanilla JavaScript Project"
 date: 2020-01-19
 tags: ["JavaScript", "Webpack"]
 keywords: "Modern JavaScript Build Setup with Webpack and babel"
-cover_image: ""
+sidebar: auto
 ---
 
 # Modern JavaScript Build Setup with Webpack and Babel

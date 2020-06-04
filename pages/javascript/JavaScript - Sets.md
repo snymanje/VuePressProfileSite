@@ -4,7 +4,7 @@ excerpt: "JavaScript - Sets examples"
 date: 2019-12-26
 tags: ["Javascript"]
 keywords: "javascript"
-cover_image: ""
+sidebar: auto
 ---
 
 # Sets
@@ -13,7 +13,7 @@ cover_image: ""
 <hr>
 <br>
 
-Sets are a new data structure that we can use in ES6. We can use them to store a set of unique values of any type.  
+Sets are a new data structure that we can use in ES6. We can use them to store a set of unique values of any type.
 
 ```javascript
 const names = new Set();
