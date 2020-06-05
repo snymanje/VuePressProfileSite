@@ -2,7 +2,7 @@
 title: Regression with Scikit-Learn
 excerpt: "Random Forest Regressor Workflow for Predicting House Prices"
 date: 2020-05-19
-tags: ["python", "ml"]
+tags: ["Machine Learning"]
 keywords: "machine learning with Scikit-Learn"
 sidebar: auto
 ---

@@ -2,7 +2,7 @@
 title: Pandas Tutorial
 excerpt: "A Quick Introduction to Data Analysis and Manipulation with Python and Pandas"
 date: 2020-05-01
-tags: ["python", "pandas", "ml"]
+tags: ["Machine Learning", "pandas"]
 keywords: "pandas data analysis, manipulating data with pandas"
 sidebar: auto
 ---

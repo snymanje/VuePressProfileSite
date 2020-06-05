@@ -2,7 +2,7 @@
 title: Matplotlib Tutorial
 excerpt: "A Quick Introduction to Plotting and Data Visualization with Matplotlib and Python"
 date: 2020-05-15
-tags: ["python", "matplotlib", "ml"]
+tags: ["Machine Learning", "matplotlib"]
 keywords: "plotting with matplotlib"
 sidebar: auto
 ---

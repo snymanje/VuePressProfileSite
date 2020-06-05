@@ -2,7 +2,7 @@
 title: Unsupervised Text Clustering with K-Means
 excerpt: "Using K-Means Clustering to group consumer complaints"
 date: 2020-05-23
-tags: ["python", "ml"]
+tags: ["Machine Learning"]
 keywords: "Unsupervised machine learning with Scikit-Learn"
 sidebar: auto
 ---

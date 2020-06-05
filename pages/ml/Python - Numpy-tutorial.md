@@ -2,7 +2,7 @@
 title: Numpy Tutorial
 excerpt: "A Quick Introduction to Numerical Data Manipulation with Python and NumPy"
 date: 2020-05-10
-tags: ["python", "numpy", "ml"]
+tags: ["Machine Learning", "numpy"]
 keywords: "numpy data manipulation, manipulating data with numpy"
 sidebar: auto
 ---

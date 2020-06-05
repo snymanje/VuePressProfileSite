@@ -2,7 +2,7 @@
 title: Markdown Cheatsheet
 excerpt: "Writing plain text with markdown syntax."
 date: 2019-08-07
-tags: ["markdown"]
+tags: ["GIT"]
 keywords: "markdown"
 sidebar: auto
 ---

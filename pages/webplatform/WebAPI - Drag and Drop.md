@@ -2,7 +2,7 @@
 title: HTML Drag and Drop Example
 excerpt: "A Basic Example of the HTML Drag and Drop API"
 date: 2020-01-04
-tags: ["WebAPI"]
+tags: ["Web API"]
 keywords: "HTML, Drag and Drop, WebAPI"
 sidebar: auto
 ---

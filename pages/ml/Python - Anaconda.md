@@ -2,7 +2,7 @@
 title: Python - Miniconda Guide.
 excerpt: "How to create a new environment and install packages."
 date: 2020-04-16
-tags: ["python"]
+tags: ["Machine Learning"]
 keywords: "python miniconda guide"
 sidebar: auto
 ---

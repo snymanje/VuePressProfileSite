@@ -2,7 +2,7 @@
 title: MultiClass Text Classification with Scikit-Learn
 excerpt: "Multiple Estimators and Hyperparameter Optimization using a Customer Complaints dataset"
 date: 2020-05-19
-tags: ["python", "ml"]
+tags: ["Machine Learning"]
 keywords: "machine learning with Scikit-Learn"
 sidebar: auto
 ---

@@ -2,7 +2,7 @@
 title: Querying and updating the DOM using Javascript
 excerpt: "Manipulating the DOM using Javascript"
 date: 2019-12-28
-tags: ["DOM", "JavaScript"]
+tags: ["JavaScript"]
 keywords: "Querying and updating the DOM using Javascript"
 sidebar: auto
 ---

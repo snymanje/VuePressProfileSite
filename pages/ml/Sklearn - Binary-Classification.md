@@ -2,7 +2,7 @@
 title: Binary Classification using Scikit-Learn
 excerpt: "Multiple Estimators and Hyperparameter Optimization using a Heart Disease dataset"
 date: 2020-05-20
-tags: ["python", "ml"]
+tags: ["Machine Learning"]
 keywords: "machine learning with Scikit-Learn"
 sidebar: auto
 ---

@@ -2,7 +2,7 @@
 title: Deep Learning Fundamentals
 excerpt: "Deep Learning Fundamentals with Tensorflow"
 date: 2020-06-02
-tags: ["Deep Learning", "Tensorflow"]
+tags: ["Machine Learning"]
 keywords: "Deep Learning Fundamentals with tensorflow"
 sidebar: auto
 ---

@@ -2,7 +2,7 @@
 title: PWA Notes
 excerpt: "Progressive Web Application Guide"
 date: 2020-01-08
-tags: ["PWA", "Service Worker"]
+tags: ["javascript", "Service Workers"]
 keywords: "javascript, pwa, Service Worker"
 sidebar: auto
 ---

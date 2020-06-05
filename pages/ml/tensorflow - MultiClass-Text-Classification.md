@@ -2,7 +2,7 @@
 title: MultiClass Text Classification with Tensorflow
 excerpt: "MultiClass Text Classification with Tensorflow using a Consumer Complaints dataset"
 date: 2020-06-05
-tags: ["python", "ml"]
+tags: ["Machine Learning"]
 keywords: "machine learning with Scikit-Learn"
 sidebar: auto
 ---
