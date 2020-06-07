@@ -31,7 +31,7 @@ pipenv shell
 
 ## Check version of Python
 
-```pythin
+```python
 python --version
 ```
 

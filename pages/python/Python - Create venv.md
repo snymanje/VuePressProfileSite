@@ -23,6 +23,6 @@ py -3 -m venv venv
 
 Then activate it
 
-```bach
+```batch
 venv\Scripts\activate
 ```

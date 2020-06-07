@@ -236,7 +236,7 @@ len(car_sales)
 
 ## Deleting a column
 
-```pythyn
+```python
 dataset.drop('GroupId', axis=1, inplace=True)
 ```
 
