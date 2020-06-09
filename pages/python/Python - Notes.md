@@ -1,5 +1,5 @@
 ---
-title: Python from the Beginning
+title: Python Fundamentals
 excerpt: "All the Python basics"
 date: 2019-12-29
 tags: ["Python"]
@@ -7,7 +7,7 @@ keywords: "Python"
 sidebar: auto
 ---
 
-# Python from the Beginning
+# Python Fundamentals
 
 <br>
 <hr>
