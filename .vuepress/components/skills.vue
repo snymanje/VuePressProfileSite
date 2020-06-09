@@ -357,7 +357,7 @@
                 >
                   <path d="M20 6L9 17l-5-5" />
                 </svg>
-              </span>SharePoint
+              </span>PowerPlatform
             </a>
             <a class="mb-2">
               <span
