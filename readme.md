@@ -4,10 +4,10 @@ pageClass: custom-page-class
 
 <hero />
 <blogs />
-<!-- <projects /> -->
-<!-- <whatido />
 <projects />
 <skills />
+<!-- <whatido />
+<projects />
 <testimonials />
-<contact />-->
+<contact /> -->
 <footr />
