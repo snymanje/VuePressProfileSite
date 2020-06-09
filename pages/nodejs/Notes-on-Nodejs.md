@@ -2,7 +2,7 @@
 title: Nodejs Notes
 excerpt: "Nodejs basics"
 date: 2019-10-05
-tags: ["nodejs", "javascript"]
+tags: ["Nodejs", "javascript"]
 keywords: "nodejs"
 sidebar: auto
 ---

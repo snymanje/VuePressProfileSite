@@ -2,7 +2,7 @@
 title: HTML Basics - images
 excerpt: "Looking at the different ways you can dispaly images."
 date: 2019-08-16
-tags: ["html"]
+tags: ["HTML"]
 keywords: "html basics"
 sidebar: auto
 ---

@@ -1,15 +1,15 @@
 <template>
   <section class="text-gray-700 body-font">
     <div class="container px-2 py-2 mx-auto">
-      <div class="flex flex-wrap text-center w-full my-10 mx-auto">
+      <div class="flex flex-wrap text-center w-full px-4 my-10 mx-auto">
         <button
           @click="selectedTag = undefined"
-          class="bg-green-500 text-white hover:bg-green-800 hover:text-white focus:outline-none font-semibold py-2 px-3 mr-2 mb-2 rounded-full shadow"
+          class="bg-green-500 text-white hover:bg-green-800 hover:text-white focus:outline-none font-semibold py-2 px-3 mr-2 mb-2 rounded shadow"
         >All</button>
         <button
           @click="selectedTag = $event.target.innerText"
           v-for="tag in getTags"
-          class="text-gray-800 hover:bg-green-800 hover:text-white focus:outline-none font-semibold py-2 px-3 mr-2 mb-2 rounded-full shadow"
+          class="text-gray-800 hover:bg-green-800 hover:text-white focus:outline-none font-semibold py-2 px-3 mr-2 mb-2 rounded shadow"
         >{{ tag }}</button>
       </div>
       <div class="flex flex-wrap mx-4 my-8">
@@ -96,7 +96,7 @@ export default {
           return (
             p.path.indexOf("/pages/") >= 0 &&
             p.relativePath !== "pages/readme.md" &&
-            p.frontmatter.tags[0].toUpperCase() === this.selectedTag
+            p.frontmatter.tags[0] === this.selectedTag
           );
         }
       });
@@ -113,7 +113,7 @@ export default {
       });
 
       const tags = pages.map(page => {
-        return page.frontmatter.tags[0].toUpperCase();
+        return page.frontmatter.tags[0];
       });
       return [...new Set(tags)];
     }

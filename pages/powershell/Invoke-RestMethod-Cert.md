@@ -2,7 +2,7 @@
 title: Invoke-RestMethod Self-Signed Certificate Errors
 excerpt: "If you use Invoke-RestMethod or Invoke-WebRequest you might have come across these errors when calling api endpoints."
 date: 2019-07-25
-tags: ["Powershell"]
+tags: ["PowerShell"]
 keywords: "powershell, web scraping"
 sidebar: auto
 ---

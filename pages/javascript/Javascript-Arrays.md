@@ -2,7 +2,7 @@
 title: The 9 must know JavaScript Array Methods
 excerpt: "Using the Filter, Map, Foreach, Find, Some, Every, Reduce, Sort and Includes array methods."
 date: 2019-11-25
-tags: ["Javascript"]
+tags: ["JavaScript"]
 keywords: "javascript arrays"
 sidebar: auto
 ---

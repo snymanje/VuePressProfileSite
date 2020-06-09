@@ -2,7 +2,7 @@
 title: Introduction to MongoDB and Mongoose
 excerpt: "Examples of using MongoDB and Mongoose"
 date: 2019-10-15
-tags: ["nodejs", "mongoose", "mongodb"]
+tags: ["Nodejs", "mongoose", "mongodb"]
 keywords: "mongodb, mongooose, nodejs"
 sidebar: auto
 ---

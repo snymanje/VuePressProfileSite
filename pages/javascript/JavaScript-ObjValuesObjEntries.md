@@ -2,7 +2,7 @@
 title: JavaScript - Object.values() and Object.entries()
 excerpt: "JavaScript - Object.values() and Object.entries() Examples"
 date: 2019-12-27
-tags: ["Javascript"]
+tags: ["JavaScript"]
 keywords: "javascript"
 sidebar: auto
 ---

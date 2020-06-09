@@ -2,7 +2,7 @@
 title: List all users in local Administrators Group
 excerpt: "The script utilises WMI and powershell to query and return all the members of the local 'Administrators' group on a remote machine in json format."
 date: 2019-07-07
-tags: ["Powershell"]
+tags: ["PowerShell"]
 keywords: "powershell, Windows Server, Local Administrators"
 sidebar: auto
 ---

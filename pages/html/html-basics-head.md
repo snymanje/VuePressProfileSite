@@ -2,7 +2,7 @@
 title: HTML Basics - The heading
 excerpt: "All the basics around the head of the html document."
 date: 2019-08-03
-tags: ["html"]
+tags: ["HTML"]
 keywords: "html basics"
 sidebar: auto
 ---

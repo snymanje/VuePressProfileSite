@@ -2,7 +2,7 @@
 title: Git and GitHub Basics
 excerpt: "A list of git commands I use on a daily basis."
 date: 2020-01-04
-tags: ["GIT"]
+tags: ["Git"]
 keywords: "git commands"
 sidebar: auto
 ---

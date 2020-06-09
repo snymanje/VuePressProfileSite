@@ -2,7 +2,7 @@
 title: Sending Emails via GMAIL using Nodemailer
 excerpt: "Sending Emails with Nodemailer"
 date: 2019-11-18
-tags: ["nodejs", "javascript"]
+tags: ["Nodejs", "javascript"]
 keywords: "nodejs"
 sidebar: auto
 ---

@@ -2,7 +2,7 @@
 title: Python - Pipenv Cheat Sheet
 excerpt: "Settting up pipenv"
 date: 2020-01-01
-tags: ["python"]
+tags: ["Python"]
 keywords: "pipenv"
 sidebar: auto
 ---

@@ -2,7 +2,7 @@
 title: JavaScript Notes
 excerpt: "JavaScript from the beginning."
 date: 2019-11-29
-tags: ["Javascript"]
+tags: ["JavaScript"]
 keywords: "javascript"
 sidebar: auto
 ---

@@ -2,7 +2,7 @@
 title: Using Nodejs and Puppeteer to Scrape a Site.
 excerpt: "This is a basic example of how to use puppeteer to scrape a site with pagination"
 date: 2019-12-21
-tags: ["nodejs"]
+tags: ["Nodejs"]
 keywords: "nodejs, web scraping"
 sidebar: auto
 ---

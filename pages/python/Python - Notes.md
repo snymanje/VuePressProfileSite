@@ -2,7 +2,7 @@
 title: Python from the Beginning
 excerpt: "All the Python basics"
 date: 2019-12-29
-tags: ["python"]
+tags: ["Python"]
 keywords: "Python"
 sidebar: auto
 ---

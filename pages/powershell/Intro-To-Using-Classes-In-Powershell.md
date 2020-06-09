@@ -2,7 +2,7 @@
 title: An Introduction to using classes in Powershell
 excerpt: "The release of Powershell 5 added classes to help simplify the way we write Powershell code. Classes brings Object-Oriented Programming to Powershell."
 date: 2019-07-02
-tags: ["Powershell"]
+tags: ["PowerShell"]
 keywords: "powershell, classes, OOP"
 sidebar: auto
 ---

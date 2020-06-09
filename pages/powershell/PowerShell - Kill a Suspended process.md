@@ -2,7 +2,7 @@
 title: PowerShell - Kill a Suspended Process on Windows
 excerpt: "Killing a Windows process based on it's status"
 date: 2020-01-09
-tags: ["Powershell"]
+tags: ["PowerShell"]
 keywords: "killing a suspended process on windows"
 sidebar: auto
 ---

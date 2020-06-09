@@ -2,7 +2,7 @@
 title: JavaScript - Regular Expressions
 excerpt: "JavaScript - Regular Expression Examples"
 date: 2019-12-29
-tags: ["Javascript"]
+tags: ["JavaScript"]
 keywords: "javascript"
 sidebar: auto
 ---

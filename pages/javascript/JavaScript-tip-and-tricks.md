@@ -2,7 +2,7 @@
 title: JavaScript Tips and Tricks
 excerpt: "Improve your everyday coding with these tips and tricks"
 date: 2019-12-05
-tags: ["Javascript"]
+tags: ["JavaScript"]
 keywords: "javascript"
 sidebar: auto
 ---

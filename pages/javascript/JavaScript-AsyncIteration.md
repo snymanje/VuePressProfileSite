@@ -2,7 +2,7 @@
 title: JavaScript - Asynchronous Iteration
 excerpt: "JavaScript - Asynchronous Iteration examples"
 date: 2019-12-27
-tags: ["Javascript"]
+tags: ["JavaScript"]
 keywords: "javascript"
 sidebar: auto
 ---

@@ -2,7 +2,7 @@
 title: Python - pip install SSL certificate error
 excerpt: "Ignoring SSL Certificate error when installing packages"
 date: 2020-02-05
-tags: ["python"]
+tags: ["Python"]
 keywords: "pip install certificate error"
 sidebar: auto
 ---

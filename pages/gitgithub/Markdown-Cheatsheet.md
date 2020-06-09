@@ -2,7 +2,7 @@
 title: Markdown Cheatsheet
 excerpt: "Writing plain text with markdown syntax."
 date: 2019-08-07
-tags: ["GIT"]
+tags: ["Git"]
 keywords: "markdown"
 sidebar: auto
 ---
@@ -185,10 +185,10 @@ I think you should use an
 ## Tables
 
 ```
-First Header | Second Header
------------- | -------------
-Content from cell 1 | Content from cell 2
-Content in the first column | Content in the second column
+| First Header                | Second Header                |
+| --------------------------- | ---------------------------- |
+| Content from cell 1         | Content from cell 2          |
+| Content in the first column | Content in the second column |
 ```
 
 | First Header                | Second Header                |

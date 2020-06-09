@@ -2,7 +2,7 @@
 title: JavaScript - Array.flat() and Array.flatmap()
 excerpt: "JavaScript - Array.flat() and Array.flatmap() Examples"
 date: 2019-12-27
-tags: ["Javascript"]
+tags: ["JavaScript"]
 keywords: "javascript"
 sidebar: auto
 ---

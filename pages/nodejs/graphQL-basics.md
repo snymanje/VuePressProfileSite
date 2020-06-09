@@ -2,7 +2,7 @@
 title: A Basic Grapghql Endpoint with Nodejs and Express
 excerpt: "Using Nodejs and Express to build a simple graphql endpoint"
 date: 2019-09-22
-tags: ["nodejs"]
+tags: ["Nodejs"]
 keywords: "graphQL with nodejs"
 sidebar: auto
 ---

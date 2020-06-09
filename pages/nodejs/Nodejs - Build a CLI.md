@@ -2,7 +2,7 @@
 title: Build a Basic CLI with Nodejs and Commander
 excerpt: "A Basic Nodejs CLI with commander"
 date: 2020-01-05
-tags: ["nodejs", "javascript"]
+tags: ["Nodejs", "javascript"]
 keywords: "nodejs"
 sidebar: auto
 ---

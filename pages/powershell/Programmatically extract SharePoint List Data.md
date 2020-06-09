@@ -2,7 +2,7 @@
 title: Programmatically extract SharePoint list data to a Database using PowerShell
 excerpt: "If you're a SharePoint Developer or Administrator you often need to give business user access to the data in SharePoint."
 date: 2019-07-04
-tags: ["Powershell", "SharePoint"]
+tags: ["PowerShell", "SharePoint"]
 keywords: "powershell, sharepoint, database"
 sidebar: auto
 ---

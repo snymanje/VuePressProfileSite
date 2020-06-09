@@ -2,7 +2,7 @@
 title: JavaScript - Destructuring
 excerpt: "JavaScript - Destructuring examples"
 date: 2019-12-26
-tags: ["Javascript"]
+tags: ["JavaScript"]
 keywords: "javascript"
 sidebar: auto
 ---

@@ -2,7 +2,7 @@
 title: HTML Basics - Text tags
 excerpt: "All the tags to interact with	text"
 date: 2019-08-06
-tags: ["html"]
+tags: ["HTML"]
 keywords: "html basics"
 sidebar: auto
 ---

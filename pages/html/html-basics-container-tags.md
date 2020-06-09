@@ -2,7 +2,7 @@
 title: HTML Basics - Container tags
 excerpt: "Looking at the container tags like main, footer, etc"
 date: 2019-08-07
-tags: ["html"]
+tags: ["HTML"]
 keywords: "html basics"
 sidebar: auto
 ---

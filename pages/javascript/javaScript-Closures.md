@@ -2,7 +2,7 @@
 title: JavaScript Closures
 excerpt: "A closure is the combination of a function bundled together (enclosed) with references to its surrounding state (the lexical environment)"
 date: 2019-11-26
-tags: ["Javascript"]
+tags: ["JavaScript"]
 keywords: "javascript closures"
 sidebar: auto
 ---
