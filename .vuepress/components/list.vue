@@ -1,15 +1,15 @@
 <template>
   <section class="text-gray-700 body-font">
     <div class="container px-2 py-2 mx-auto">
-      <div class="flex flex-wrap text-center w-full px-4 my-10 mx-auto">
+      <div class="flex flex-wrap items-center justify-center text-center w-full px-4 my-10">
         <button
-          @click="selectedTag = undefined"
-          class="bg-green-500 text-white hover:bg-green-800 hover:text-white focus:outline-none font-semibold py-2 px-3 mr-2 mb-2 rounded shadow"
+          @click="[selectedTag = undefined]"
+          class="text-gray-800 hover:bg-green-500 hover:text-white focus:outline-none font-semibold py-2 px-3 mr-2 mb-2 rounded shadow"
         >All</button>
         <button
-          @click="selectedTag = $event.target.innerText"
+          @click="[selectedTag = $event.target.innerText]"
           v-for="tag in getTags"
-          class="text-gray-800 hover:bg-green-800 hover:text-white focus:outline-none font-semibold py-2 px-3 mr-2 mb-2 rounded shadow"
+          class="text-gray-800 hover:bg-green-500 hover:text-white focus:outline-none font-semibold py-2 px-3 mr-2 mb-2 rounded shadow"
         >{{ tag }}</button>
       </div>
       <div class="flex flex-wrap mx-4 my-8">
@@ -55,7 +55,8 @@
 export default {
   data() {
     return {
-      selectedTag: undefined
+      selectedTag: undefined,
+      isActive: false
     };
   },
   methods: {
