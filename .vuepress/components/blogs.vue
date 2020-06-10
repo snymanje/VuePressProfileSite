@@ -1,5 +1,5 @@
 <template>
-  <section class="text-gray-700 body-font">
+  <section class="text-gray-700 body-font relative">
     <div class="container px-2 py-24 mx-auto">
       <div class="flex flex-col text-center w-full mb-20">
         <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-800">Latest Blog Posts</h1>
@@ -10,7 +10,7 @@
       </div>
       <div class="flex flex-wrap -mx-4 -my-8">
         <div class="flex-grow py-8 px-4 lg:w-1/3" v-for="page in files">
-          <div class="h-full flex items-start shadow-lg px-1 py-2 rounded">
+          <div class="h-full flex items-start shadow-lg px-1 py-4 rounded bg-white block z-10">
             <div class="w-12 flex-shrink-0 flex flex-col text-center leading-none">
               <span
                 class="text-gray-500 pb-2 mb-2 border-b-2 border-gray-300"
@@ -45,6 +45,7 @@
         </div>
       </div>
     </div>
+    <div class="container mx-auto background_dots w-full h-24 z-0"></div>
   </section>
 </template>
 

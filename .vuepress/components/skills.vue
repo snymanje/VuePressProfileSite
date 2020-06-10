@@ -1,6 +1,6 @@
 <template>
-  <section class="text-gray-700 body-font border-solid border-t border-gray-200">
-    <div class="container px-5 py-24 mx-auto">
+  <section class="text-gray-700 body-font relative">
+    <div class="container px-5 py-24 mx-auto z-10">
       <div class="text-center mb-20">
         <h1
           class="sm:text-3xl text-2xl font-medium text-center title-font text-gray-900 mb-4"
@@ -12,12 +12,12 @@
       <div class="flex flex-wrap items-center justify-center">
         <div class="p-4 lg:w-1/4 sm:w-1/2 w-full">
           <h2
-            class="font-medium title-font tracking-widest text-gray-900 mb-4 text-sm text-center sm:text-left"
+            class="font-medium title-font tracking-widest text-gray-900 mb-4 text-md text-center sm:text-left"
           >Front-End</h2>
           <nav class="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1">
             <a class="mb-2">
               <span
-                class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center"
+                class="bg-green-100 text-green-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center"
               >
                 <svg
                   fill="none"
@@ -34,7 +34,7 @@
             </a>
             <a class="mb-2">
               <span
-                class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center"
+                class="bg-green-100 text-green-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center"
               >
                 <svg
                   fill="none"
@@ -51,7 +51,7 @@
             </a>
             <a class="mb-2">
               <span
-                class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center"
+                class="bg-green-100 text-green-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center"
               >
                 <svg
                   fill="none"
@@ -68,7 +68,7 @@
             </a>
             <a class="mb-2">
               <span
-                class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center"
+                class="bg-green-100 text-green-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center"
               >
                 <svg
                   fill="none"
@@ -85,7 +85,7 @@
             </a>
             <a class="mb-2">
               <span
-                class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center"
+                class="bg-green-100 text-green-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center"
               >
                 <svg
                   fill="none"
@@ -104,12 +104,12 @@
         </div>
         <div class="p-4 lg:w-1/4 sm:w-1/2 w-full">
           <h2
-            class="font-medium title-font tracking-widest text-gray-900 mb-4 text-sm text-center sm:text-left"
+            class="font-medium title-font tracking-widest text-gray-900 mb-4 text-md text-center sm:text-left"
           >Back-End</h2>
           <nav class="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1">
             <a class="mb-2">
               <span
-                class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center"
+                class="bg-green-100 text-green-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center"
               >
                 <svg
                   fill="none"
@@ -126,7 +126,7 @@
             </a>
             <a class="mb-2">
               <span
-                class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center"
+                class="bg-green-100 text-green-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center"
               >
                 <svg
                   fill="none"
@@ -143,7 +143,7 @@
             </a>
             <a class="mb-2">
               <span
-                class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center"
+                class="bg-green-100 text-green-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center"
               >
                 <svg
                   fill="none"
@@ -160,7 +160,7 @@
             </a>
             <a class="mb-2">
               <span
-                class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center"
+                class="bg-green-100 text-green-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center"
               >
                 <svg
                   fill="none"
@@ -177,7 +177,7 @@
             </a>
             <a class="mb-2">
               <span
-                class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center"
+                class="bg-green-100 text-green-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center"
               >
                 <svg
                   fill="none"
@@ -196,12 +196,12 @@
         </div>
         <div class="p-4 lg:w-1/4 sm:w-1/2 w-full">
           <h2
-            class="font-medium title-font tracking-widest text-gray-900 mb-4 text-sm text-center sm:text-left"
+            class="font-medium title-font tracking-widest text-gray-900 mb-4 text-md text-center sm:text-left"
           >Machine Learning & RPA</h2>
           <nav class="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1">
             <a class="mb-2">
               <span
-                class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center"
+                class="bg-green-100 text-green-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center"
               >
                 <svg
                   fill="none"
@@ -218,7 +218,7 @@
             </a>
             <a class="mb-2">
               <span
-                class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center"
+                class="bg-green-100 text-green-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center"
               >
                 <svg
                   fill="none"
@@ -235,7 +235,7 @@
             </a>
             <a class="mb-2">
               <span
-                class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center"
+                class="bg-green-100 text-green-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center"
               >
                 <svg
                   fill="none"
@@ -252,7 +252,7 @@
             </a>
             <a class="mb-2">
               <span
-                class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center"
+                class="bg-green-100 text-green-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center"
               >
                 <svg
                   fill="none"
@@ -269,7 +269,7 @@
             </a>
             <a class="mb-2">
               <span
-                class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center"
+                class="bg-green-100 text-green-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center"
               >
                 <svg
                   fill="none"
@@ -288,12 +288,12 @@
         </div>
         <div class="p-4 lg:w-1/4 sm:w-1/2 w-full">
           <h2
-            class="font-medium title-font tracking-widest text-gray-900 mb-4 text-sm text-center sm:text-left"
+            class="font-medium title-font tracking-widest text-gray-900 mb-4 text-md text-center sm:text-left"
           >Other</h2>
           <nav class="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1">
             <a class="mb-2">
               <span
-                class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center"
+                class="bg-green-100 text-green-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center"
               >
                 <svg
                   fill="none"
@@ -310,7 +310,7 @@
             </a>
             <a class="mb-2">
               <span
-                class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center"
+                class="bg-green-100 text-green-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center"
               >
                 <svg
                   fill="none"
@@ -327,7 +327,7 @@
             </a>
             <a class="mb-2">
               <span
-                class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center"
+                class="bg-green-100 text-green-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center"
               >
                 <svg
                   fill="none"
@@ -344,7 +344,7 @@
             </a>
             <a class="mb-2">
               <span
-                class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center"
+                class="bg-green-100 text-green-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center"
               >
                 <svg
                   fill="none"
@@ -361,7 +361,7 @@
             </a>
             <a class="mb-2">
               <span
-                class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center"
+                class="bg-green-100 text-green-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center"
               >
                 <svg
                   fill="none"
@@ -379,9 +379,7 @@
           </nav>
         </div>
       </div>
-      <button
-        class="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg"
-      >Button</button>
     </div>
+    <div class="container mx-auto background_dots w-full h-24 z-0"></div>
   </section>
 </template>

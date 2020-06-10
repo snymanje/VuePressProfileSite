@@ -1,6 +1,6 @@
 <template>
   <section>
-    <footer class="text-gray-700 body-font border-solid border-t border-gray-200">
+    <footer class="text-gray-700 body-font border-solid border-t border-gray-200 mt-4">
       <div class="container px-5 py-1 mx-auto flex items-center sm:flex-row flex-col">
         <a
           class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900"
