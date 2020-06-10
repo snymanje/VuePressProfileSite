@@ -78,15 +78,6 @@
 
 <style>
 .background_dots {
-  /*   height: 700px;
-  max-width: 1500px;
-  max-height: 100%;
-  margin: 0 auto;
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  opacity: 1; */
   background-position: 0 100%;
   background-repeat: repeat-x;
   background-size: 15px;

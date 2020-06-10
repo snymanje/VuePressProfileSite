@@ -6,8 +6,6 @@ pageClass: custom-page-class
 <blogs />
 <projects />
 <skills />
-<!-- <whatido />
-<projects />
-<testimonials />
-<contact /> -->
+<testimonials /> 
+<contact /> 
 <footr />
