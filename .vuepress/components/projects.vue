@@ -17,14 +17,15 @@
           <div class="bg-gray-100 p-6 rounded-lg z-40">
             <img
               class="h-40 rounded w-full object-cover object-center mb-6"
-              src="https://dummyimage.com/720x400"
+              src="/assets/aws_textract.jpg"
               alt="content"
             />
-            <h3 class="tracking-widest text-green-500 text-xs font-medium title-font">SUBTITLE</h3>
-            <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Chichen Itza</h2>
-            <p
-              class="leading-relaxed text-base"
-            >Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
+            <h3 class="tracking-widest text-green-500 text-xs font-medium title-font">NPM Library</h3>
+            <h2 class="text-lg text-gray-900 font-medium title-font mb-4">AWS Textract Json Parser</h2>
+            <p class="leading-relaxed text-base">
+              AWS Textract is a service that automatically extracts text and data from scanned documents.
+              This library parses the json response from AWS Textract into a more usable format.
+            </p>
           </div>
         </div>
         <div class="xl:w-1/4 md:w-1/2 p-4 z-10">

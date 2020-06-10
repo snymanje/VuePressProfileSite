@@ -1,6 +1,6 @@
 <template>
   <section class="text-gray-700 body-font relative">
-    <div class="container px-5 py-24 mx-auto z-10">
+    <div class="container px-5 py-20 mx-auto z-10">
       <div class="text-center mb-20">
         <h1
           class="sm:text-3xl text-2xl font-medium text-center title-font text-gray-900 mb-4"
