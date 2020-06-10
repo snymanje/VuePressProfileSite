@@ -380,6 +380,20 @@
         </div>
       </div>
     </div>
+    <!-- <p class="bg-text">Skills</p> -->
     <div class="container mx-auto background_dots w-full h-24 z-0"></div>
   </section>
 </template>
+
+<style>
+.bg-text {
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  opacity: 0.05;
+  font-size: 30rem;
+  overflow: hidden;
+  z-index: 0;
+}
+</style>
