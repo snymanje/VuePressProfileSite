@@ -14,7 +14,7 @@
       </div>
       <div class="flex flex-wrap -m-4">
         <div class="xl:w-1/4 md:w-1/2 p-4 z-10">
-          <div class="bg-gray-100 p-6 rounded-lg z-40">
+          <div class="bg-gray-100 p-2 rounded-lg z-40">
             <img
               class="h-40 rounded w-full object-cover object-center mb-6"
               src="/assets/aws_textract.jpg"
@@ -26,48 +26,122 @@
               AWS Textract is a service that automatically extracts text and data from scanned documents.
               This library parses the json response from AWS Textract into a more usable format.
             </p>
+            <a
+              class="text-green-500 inline-flex items-center mt-4"
+              href="https://www.npmjs.com/package/aws-textract-json-parser"
+              target="_blank"
+            >
+              Learn More
+              <svg
+                class="w-4 h-4 ml-2"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                stroke-width="2"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M5 12h14" />
+                <path d="M12 5l7 7-7 7" />
+              </svg>
+            </a>
           </div>
         </div>
         <div class="xl:w-1/4 md:w-1/2 p-4 z-10">
-          <div class="bg-gray-100 p-6 rounded-lg">
+          <div class="bg-gray-100 p-2 rounded-lg z-40">
             <img
               class="h-40 rounded w-full object-cover object-center mb-6"
-              src="https://dummyimage.com/721x401"
+              src="/assets/eventsMonitor.jpg"
               alt="content"
             />
-            <h3 class="tracking-widest text-green-500 text-xs font-medium title-font">SUBTITLE</h3>
-            <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Colosseum Roma</h2>
-            <p
-              class="leading-relaxed text-base"
-            >Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
+            <h3
+              class="tracking-widest text-green-500 text-xs font-medium title-font"
+            >Full Stack Web Application</h3>
+            <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Biztalk Events Monitor</h2>
+            <p class="leading-relaxed text-base">
+              App monitor's Biztalk Server events.
+              Front-end allows you to resolve and reassign events to teams, send email notification, set flags or notes.
+              Build with Vuejs & ASP.Net Core.
+            </p>
+            <a class="text-green-500 inline-flex items-center mt-4">
+              Private Application
+              <svg
+                class="w-4 h-4 ml-2"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                stroke-width="2"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M5 12h14" />
+                <path d="M12 5l7 7-7 7" />
+              </svg>
+            </a>
           </div>
         </div>
         <div class="xl:w-1/4 md:w-1/2 p-4 z-10">
-          <div class="bg-gray-100 p-6 rounded-lg">
+          <div class="bg-gray-100 p-2 rounded-lg z-40">
             <img
               class="h-40 rounded w-full object-cover object-center mb-6"
-              src="https://dummyimage.com/722x402"
+              src="/assets/EHArchitecture.jpg"
               alt="content"
             />
-            <h3 class="tracking-widest text-green-500 text-xs font-medium title-font">SUBTITLE</h3>
-            <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Great Pyramid of Giza</h2>
-            <p
-              class="leading-relaxed text-base"
-            >Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
+            <h3 class="tracking-widest text-green-500 text-xs font-medium title-font">WebSite</h3>
+            <h2 class="text-lg text-gray-900 font-medium title-font mb-4">EH Architecture</h2>
+            <p class="leading-relaxed text-base">
+              AWS Textract is a service that automatically extracts text and data from scanned documents.
+              This library parses the json response from AWS Textract into a more usable format.
+            </p>
+            <a class="text-green-500 inline-flex items-center mt-4">
+              Learn More
+              <svg
+                class="w-4 h-4 ml-2"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                stroke-width="2"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M5 12h14" />
+                <path d="M12 5l7 7-7 7" />
+              </svg>
+            </a>
           </div>
         </div>
         <div class="xl:w-1/4 md:w-1/2 p-4 z-10">
-          <div class="bg-gray-100 p-6 rounded-lg">
+          <div class="bg-gray-100 p-2 rounded-lg z-40">
             <img
               class="h-40 rounded w-full object-cover object-center mb-6"
-              src="https://dummyimage.com/723x403"
+              src="/assets/aws_textract.jpg"
               alt="content"
             />
-            <h3 class="tracking-widest text-green-500 text-xs font-medium title-font">SUBTITLE</h3>
-            <h2 class="text-lg text-gray-900 font-medium title-font mb-4">San Francisco</h2>
-            <p
-              class="leading-relaxed text-base"
-            >Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
+            <h3
+              class="tracking-widest text-green-500 text-xs font-medium title-font"
+            >Machine Learning R&D</h3>
+            <h2
+              class="text-lg text-gray-900 font-medium title-font mb-4"
+            >Text Classification with Tensorflow</h2>
+            <p class="leading-relaxed text-base">
+              AWS Textract is a service that automatically extracts text and data from scanned documents.
+              This library parses the json response from AWS Textract into a more usable format.
+            </p>
+            <a class="text-green-500 inline-flex items-center mt-4">
+              Learn More
+              <svg
+                class="w-4 h-4 ml-2"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                stroke-width="2"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M5 12h14" />
+                <path d="M12 5l7 7-7 7" />
+              </svg>
+            </a>
           </div>
         </div>
       </div>

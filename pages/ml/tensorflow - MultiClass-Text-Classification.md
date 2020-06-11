@@ -270,7 +270,7 @@ validation_labels = encode.transform(y_test)
 
 <br>
 
-## Check the same of the data
+## Check the shape of the data
 
 ```python
 print(train_padded.shape)

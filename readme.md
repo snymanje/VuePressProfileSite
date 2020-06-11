@@ -6,6 +6,6 @@ pageClass: custom-page-class
 <blogs />
 <projects />
 <skills />
-<testimonials /> 
+<!-- <testimonials />  -->
 <contact /> 
 <footr />
