@@ -10,7 +10,7 @@
         </div>
         <p
           class="lg:w-1/2 w-full leading-relaxed text-base"
-        >Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis officiis facere quas voluptatibus natus vitae repudiandae, nemo, maiores quasi quidem recusandae molestias rerum quam labore assumenda vero omnis mollitia? Debitis!</p>
+        >Here's a few of my latest projects, I have many more project that I can not share here. Also check out my Github and LinkedIn profile.</p>
       </div>
       <div class="flex flex-wrap -m-4">
         <div class="xl:w-1/4 md:w-1/2 p-4 z-10">
@@ -59,9 +59,9 @@
             >Full Stack Web Application</h3>
             <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Biztalk Events Monitor</h2>
             <p class="leading-relaxed text-base">
-              App monitor's Biztalk Server events.
-              Front-end allows you to resolve and reassign events to teams, send email notification, set flags or notes.
-              Build with Vuejs & ASP.Net Core.
+              App that monitor's Biztalk Server events.
+              Resolve and reassign events to different teams, send email notification, set flags or notes.
+              Build with Vuejs, .Net Core & PowerShell
             </p>
             <a class="text-green-500 inline-flex items-center mt-4">
               Private Application
@@ -88,12 +88,15 @@
               alt="content"
             />
             <h3 class="tracking-widest text-green-500 text-xs font-medium title-font">WebSite</h3>
-            <h2 class="text-lg text-gray-900 font-medium title-font mb-4">EH Architecture</h2>
-            <p class="leading-relaxed text-base">
-              AWS Textract is a service that automatically extracts text and data from scanned documents.
-              This library parses the json response from AWS Textract into a more usable format.
-            </p>
-            <a class="text-green-500 inline-flex items-center mt-4">
+            <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Profile Website</h2>
+            <p
+              class="leading-relaxed text-base"
+            >Profile site for a client that specializes in the architectural design and drawing of houses. The site have project examples, services offered and contact details.</p>
+            <a
+              class="text-green-500 inline-flex items-center mt-4"
+              href="https://eugenehenning.netlify.app"
+              target="_blank"
+            >
               Learn More
               <svg
                 class="w-4 h-4 ml-2"
@@ -114,7 +117,7 @@
           <div class="bg-gray-100 p-2 rounded-lg z-40">
             <img
               class="h-40 rounded w-full object-cover object-center mb-6"
-              src="/assets/aws_textract.jpg"
+              src="/assets/ml.png"
               alt="content"
             />
             <h3
@@ -123,11 +126,14 @@
             <h2
               class="text-lg text-gray-900 font-medium title-font mb-4"
             >Text Classification with Tensorflow</h2>
-            <p class="leading-relaxed text-base">
-              AWS Textract is a service that automatically extracts text and data from scanned documents.
-              This library parses the json response from AWS Textract into a more usable format.
-            </p>
-            <a class="text-green-500 inline-flex items-center mt-4">
+            <p
+              class="leading-relaxed text-base"
+            >Building a multi-class Text Classification model with Tensorflow that will classify Consumer Complaints.</p>
+            <a
+              class="text-green-500 inline-flex items-center mt-4"
+              href="https://github.com/snymanje/MultiClass-Text-Classification-with-Tensorflow/blob/master/MultiClass_Text_Classification_with_Tensorflow.ipynb"
+              target="_blank"
+            >
               Learn More
               <svg
                 class="w-4 h-4 ml-2"
