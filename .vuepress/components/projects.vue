@@ -4,7 +4,7 @@
       <div class="flex flex-wrap w-full mb-20">
         <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
           <h1
-            class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900"
+            class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-800"
           >Project & R&D Work</h1>
           <div class="h-1 w-20 bg-green-500 rounded"></div>
         </div>
@@ -14,7 +14,7 @@
       </div>
       <div class="flex flex-wrap -m-4">
         <div class="xl:w-1/4 md:w-1/2 p-4 z-10">
-          <div class="bg-gray-100 p-2 rounded-lg z-40">
+          <div class="bg-gray-200 p-3 rounded-lg z-40">
             <img
               class="h-40 rounded w-full object-cover object-center mb-6"
               src="/assets/aws_textract.jpg"
@@ -23,8 +23,8 @@
             <h3 class="tracking-widest text-green-500 text-xs font-medium title-font">NPM Library</h3>
             <h2 class="text-lg text-gray-900 font-medium title-font mb-4">AWS Textract Json Parser</h2>
             <p class="leading-relaxed text-base">
-              AWS Textract is a service that automatically extracts text and data from scanned documents.
-              This library parses the json response from AWS Textract into a more usable format.
+              Textract is a service that automatically extracts text and data from scanned documents.
+              This library parses the json response from Textract into a more usable format.
             </p>
             <a
               class="text-green-500 inline-flex items-center mt-4"
@@ -48,7 +48,7 @@
           </div>
         </div>
         <div class="xl:w-1/4 md:w-1/2 p-4 z-10">
-          <div class="bg-gray-100 p-2 rounded-lg z-40">
+          <div class="bg-gray-200 p-3 rounded-lg z-40">
             <img
               class="h-40 rounded w-full object-cover object-center mb-6"
               src="/assets/eventsMonitor.jpg"
@@ -81,7 +81,7 @@
           </div>
         </div>
         <div class="xl:w-1/4 md:w-1/2 p-4 z-10">
-          <div class="bg-gray-100 p-2 rounded-lg z-40">
+          <div class="bg-gray-200 p-3 rounded-lg z-40">
             <img
               class="h-40 rounded w-full object-cover object-center mb-6"
               src="/assets/EHArchitecture.jpg"
@@ -114,7 +114,7 @@
           </div>
         </div>
         <div class="xl:w-1/4 md:w-1/2 p-4 z-10">
-          <div class="bg-gray-100 p-2 rounded-lg z-40">
+          <div class="bg-gray-200 p-3 rounded-lg z-40">
             <img
               class="h-40 rounded w-full object-cover object-center mb-6"
               src="/assets/ml.png"

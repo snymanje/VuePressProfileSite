@@ -1,9 +1,10 @@
 <template>
   <section class="text-gray-700 body-font relative">
     <div class="container px-4 py-24 mx-auto">
-      <div class="flex flex-col text-center w-full mb-20">
-        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-800">Latest Blog Posts</h1>
-        <p class="lg:w-2/3 mx-auto px-4 leading-relaxed text-base">
+      <div class="flex flex-col items-center mb-20">
+        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-800">Latest Blog Posts</h1>
+        <p class="h-1 w-20 bg-green-500 rounded mb-4"></p>
+        <p class="text-base leading-relaxed text-center">
           This is where I document my work and learnings for my future self
           and then share it with the rest of the world.
         </p>

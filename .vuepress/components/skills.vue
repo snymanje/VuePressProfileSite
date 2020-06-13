@@ -1,13 +1,12 @@
 <template>
   <section class="text-gray-700 body-font relative">
     <div class="container px-5 py-20 mx-auto z-10">
-      <div class="text-center mb-20">
-        <h1
-          class="sm:text-3xl text-2xl font-medium text-center title-font text-gray-900 mb-4"
-        >Skills</h1>
+      <div class="flex flex-col items-center mb-20">
+        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-800">Skills</h1>
+        <p class="h-1 w-20 bg-green-500 rounded mb-4"></p>
         <p
-          class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto"
-        >Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug.</p>
+          class="text-base leading-relaxed text-center"
+        >This is the technologies that I'm very passionate about and love working with.</p>
       </div>
       <div class="flex flex-wrap items-center justify-center">
         <div class="p-4 lg:w-1/4 sm:w-1/2 w-full">
