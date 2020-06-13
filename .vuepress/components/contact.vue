@@ -1,5 +1,5 @@
 <template>
-  <section id="contact" class="text-gray-700 body-font relative pb-8">
+  <section id="contact" class="text-gray-700 body-font pb-8">
     <div>
       <div class="container mx-auto flex flex-col text-center w-full pb-8 pt-12 px-4">
         <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-800">Contact Me</h1>
@@ -65,6 +65,6 @@
         >SEND MESSAGE</button>
       </div>
     </div>
-    <div class="container mx-auto background_dots w-full h-24 z-0"></div>
+    <div class="container mx-auto background_dots w-full h-24 mt-4"></div>
   </section>
 </template>
