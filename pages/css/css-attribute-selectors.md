@@ -2,7 +2,7 @@
 title: CSS Attribute Selectors
 excerpt: Looking at attribute selectors in CSS
 date: 2019-08-20
-tags: ["CSS"]
+tags: ["Web"]
 keywords: "CSS Attribute Selectors"
 sidebar: auto
 ---

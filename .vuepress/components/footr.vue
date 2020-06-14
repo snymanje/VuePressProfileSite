@@ -13,13 +13,13 @@
           <li class="mr-2">
             <a
               href="#home"
-              class="border-solid border-b-4 border-transparent hover:border-green-700 transform transition-border duration-500 ease-in-out"
+              class="border-solid border-b-2 border-transparent hover:border-green-700 transform transition-border duration-500 ease-in-out"
             >Home</a>
           </li>
           <li class="mr-2">
             <a
               href="/pages"
-              class="border-solid border-b-4 border-transparent hover:border-green-700 transform transition-border duration-500 ease-in-out"
+              class="border-solid border-b-2 border-transparent hover:border-green-700 transform transition-border duration-500 ease-in-out"
             >Blog</a>
           </li>
         </ul>

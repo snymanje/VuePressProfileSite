@@ -2,7 +2,7 @@
 title: CSS Import
 excerpt: "Importing a CSS file from another CSS file. "
 date: 2019-08-20
-tags: ["CSS"]
+tags: ["Web"]
 keywords: "CSS import"
 sidebar: auto
 ---

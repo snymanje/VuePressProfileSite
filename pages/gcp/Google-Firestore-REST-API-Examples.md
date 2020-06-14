@@ -2,7 +2,7 @@
 title: Google Firestore REST API Examples
 excerpt: "In this post I'm documenting a few examples using the Firestore REST API"
 date: 2019-07-03
-tags: ["Firestore", "JavaScript"]
+tags: ["Cloud", "JavaScript"]
 keywords: "Cloud Firestore"
 sidebar: auto
 ---

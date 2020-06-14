@@ -2,7 +2,7 @@
 title: Build a responsive CSS Grid.
 excerpt: "Build a responsive layout with CSS Grid"
 date: 2019-09-10
-tags: ["CSS"]
+tags: ["Web"]
 keywords: "CSS Grid responsive layout"
 sidebar: auto
 ---

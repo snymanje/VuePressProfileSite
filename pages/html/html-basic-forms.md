@@ -2,7 +2,7 @@
 title: HTML Basics - Forms
 excerpt: "The form tag and all the input elements that goes with it."
 date: 2019-08-11
-tags: ["HTML"]
+tags: ["Web"]
 keywords: "html basics"
 sidebar: auto
 ---

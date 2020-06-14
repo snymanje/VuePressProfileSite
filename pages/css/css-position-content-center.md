@@ -2,7 +2,7 @@
 title: Position content in the center using CSS position.
 excerpt: "Sometimes you need to position content perfectly in the middle without using flexbox or grid."
 date: 2019-08-29
-tags: ["CSS"]
+tags: ["Web"]
 keywords: "CSS Positioning"
 sidebar: auto
 ---
