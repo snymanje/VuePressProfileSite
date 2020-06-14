@@ -3,20 +3,26 @@
     <footer class="text-gray-700 body-font border-solid border-t border-gray-200 mt-4">
       <div class="container px-5 py-1 mx-auto flex items-center sm:flex-row flex-col">
         <a
-          class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900"
+          class="flex title-font font-medium items-center md:justify-start justify-center text-gray-800"
         >
           <span class="ml-3 text-xl">Jean Snyman</span>
         </a>
-        <p
-          class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4"
+        <ul
+          class="text-md text-gray-800 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4 flex"
         >
-          <a
-            href="https://twitter.com/JeanSnyman"
-            class="text-gray-600 ml-1"
-            rel="noopener noreferrer"
-            target="_blank"
-          >@JeanSnyman</a>
-        </p>
+          <li class="mr-2">
+            <a
+              href="#home"
+              class="border-solid border-b-4 border-transparent hover:border-green-700 transform transition-border duration-500 ease-in-out"
+            >Home</a>
+          </li>
+          <li class="mr-2">
+            <a
+              href="/pages"
+              class="border-solid border-b-4 border-transparent hover:border-green-700 transform transition-border duration-500 ease-in-out"
+            >Blog</a>
+          </li>
+        </ul>
         <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
           <a
             href="https://twitter.com/JeanSnyman"
