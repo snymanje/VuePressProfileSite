@@ -8,6 +8,9 @@ module.exports = {
         "@vuepress/back-to-top": true,
         "@vuepress/medium-zoom": true,
         "reading-progress": true,
+        sitemap: {
+            hostname: "https://jswebdev2.netlify.app",
+        },
     },
     markdown: {
         lineNumbers: true,
@@ -28,5 +31,5 @@ module.exports = {
         smoothScroll: true,
     },
     /*  shouldPrefetch: () => false,
-      shouldPreload: () => false, */
+        shouldPreload: () => false, */
 };
