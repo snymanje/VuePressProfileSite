@@ -28,4 +28,5 @@ module.exports = {
         smoothScroll: true,
     },
     shouldPrefetch: () => false,
+    shouldPreload: () => false,
 };
