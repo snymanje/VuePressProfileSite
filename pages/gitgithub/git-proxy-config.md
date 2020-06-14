@@ -2,7 +2,7 @@
 title: Adding proxy settings to your git config
 excerpt: "When you are behind a proxy server you might have to configure your proxy settings in .gitconfig"
 date: 2019-08-13
-tags: ["Git"]
+tags: ["Cloud"]
 keywords: "git proxy"
 sidebar: auto
 ---

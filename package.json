@@ -14,7 +14,6 @@
         "vuepress-plugin-reading-progress": "^1.0.9",
         "vuepress-plugin-sitemap": "^2.3.1"
     },
-    "devDependencies": {},
     "scripts": {
         "dev": "vuepress dev",
         "start": "nodemon --ext md,vue --watch .vuepress --watch . --exec vuepress dev",
