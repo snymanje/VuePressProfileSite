@@ -27,5 +27,5 @@ module.exports = {
         searchPlaceholder: "Search...",
         smoothScroll: true,
     },
-    shouldPrefetch: () => False,
+    shouldPrefetch: () => false,
 };
