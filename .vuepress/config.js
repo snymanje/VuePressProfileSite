@@ -27,7 +27,7 @@ module.exports = {
         searchPlaceholder: "Search...",
         smoothScroll: true,
     },
-    shouldPreload: (file, type) => {
+    shouldPrefetch: (file, type) => {
         // type is inferred based on the file extension.
         // https://fetch.spec.whatwg.org/#concept-request-destination
         if (type === "script" || type === "style") {
